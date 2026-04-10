@@ -17,8 +17,10 @@ header, footer {
 
 .stMainBlockContainer{
     background: #1a2b4a;
-    border-radius: 20px;
     padding: 1em;
+    max-width: unset;
+    width: 100%;
+    height: 100%;
 }
 
 /* Fix inner spacing */
