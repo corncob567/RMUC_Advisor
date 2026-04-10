@@ -7,7 +7,7 @@ st.set_page_config(page_title="RMUC Advisor", page_icon="🤖")
 st.title("📅 Smart Event Hub")
 st.markdown("Welcome to the **RMUC.26 Advisor** — your AI-powered guide to the Rent Manager User Conference in San Antonio!")
 
-client = Groq(api_key="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")
+client = Groq(api_key=st.secrets["GROQ_KEY"])
 
 # 2. Load Data from Files
 @st.cache_data
