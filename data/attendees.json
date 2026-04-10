@@ -1,0 +1,11 @@
+[
+    {"name": "Brian Mueller", "interests": "Reporting, NDT, Mobile, Scripting, Orion", "goal": "Sharing knowledge", "role": "Director of Software Development"},
+    {"name": "Adam Noyes", "interests": "SQL, Scripting, API", "goal": "Networking with tech teams", "role": "Software Development Manager"},
+    {"name": "Chris Griesinger", "interests": "Customer experience, social events", "goal": "Networking, support", "role": "Chief Customer Experience Officer"},
+    {"name": "Dave Hegemann", "interests": "Keynote, management", "goal": "Networking", "role": "CEO"},
+    {"name": "Tony Little", "interests": "Reporting, dashboards, data analysis", "goal": "Gather new ideas for future development", "role": "Chief Technical Officer"},
+    {"name": "Saritha Kota", "interests": "RentManager, RMX", "goal": "Answer any technical questions", "role": "Director of Software Development"},
+    {"name": "Craig Zutavern", "interests": "API, RMX", "goal": "Answer any API questions", "role": "Director of Software Development"},
+    {"name": "Brittany Christerson", "interests": "Third-party management, conference event management", "goal": "Streamline conference operations, networking", "role": "Chief Operating Officer"},
+    {"name": "Ali Ferryman", "interests": "Third-party management, RMX migrations, RentManager", "goal": "Recommend new products to users", "role": "Director of Product Management"}
+]

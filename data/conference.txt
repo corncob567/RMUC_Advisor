@@ -1,0 +1,90 @@
+CONFERENCE: RMUC.26 — Rent Manager User Conference
+DATES: October 19–22, 2026
+LOCATION: San Antonio, Texas
+THEME: "Where Innovation Flows"
+ 
+=== MONDAY, OCTOBER 19 (Pre-Conference Day) ===
+- Registration Open: 7:30 AM – 5:15 PM
+- Rent Manager Core Bootcamp: 9:30 AM – 4:30 PM | Room: TBD | Presenter: James Whitfield | Beginner | A 7-hour crash course covering chart of accounts, charge types, properties, units, tenants, user-defined fields, receivables, payables, and the tenant life cycle.
+- Administrator Bootcamp: 9:30 AM – 4:30 PM | Room: TBD | Presenter: Sandra Okafor | Intermediate | A 7-hour event covering daily management workflows, team oversight, security, and making Rent Manager more efficient for staff.
+- Bootcamp Lunch: 12:00 PM – 1:15 PM (Bootcamp attendees only)
+- Dia de los Muertos Opening Reception: 7:30 PM – 9:30 PM (Evening social event, all attendees welcome)
+ 
+=== TUESDAY, OCTOBER 20 ===
+- Breakfast: 7:30 AM – 8:30 AM
+- Registration Open: 7:30 AM – 5:15 PM
+- Keynote Address featuring Dave Hegemann (LCS President & CEO): 8:45 AM – 10:15 AM | Grand Ballroom | New feature announcements, product demos, and reveal of next year's conference location.
+- Innovation Hall Grand Opening (75+ PropTech sponsors): 10:15 AM – 11:30 AM
+- Lunch: 11:30 AM – 12:45 PM
+- Break (Snacks & Drinks): 2:00 PM – 2:30 PM
+- Center Stage at the Aztec Premier Social Event: 6:00 PM – 10:00 PM | Aztec Theatre | Dinner, open bar, live music. Sponsored by AmRent, AvidXchange, LeaseTrack, Rentable, Zego.
+ 
+=== WEDNESDAY, OCTOBER 21 (Main Session Day) ===
+- Breakfast: 7:30 AM – 8:30 AM
+- Innovation Hall & Rent Manager Experience Open: 8:30 AM – 5:15 PM
+- Break (Drinks Only): 9:45 AM – 10:15 AM
+- Lunch: 11:30 AM – 12:45 PM
+- Break (Snacks & Drinks): 2:00 PM – 2:30 PM
+- Let's Taco Bout It Power Hour (Innovation Hall): 3:45 PM – 5:15 PM | Networking with sponsors and taco treats. Sponsored by AvidXchange.
+ 
+=== THURSDAY, OCTOBER 22 (Final Day) ===
+- Breakfast: 7:30 AM – 8:30 AM
+- Registration Open: 7:30 AM – 11:15 AM
+- Innovation Hall & Rent Manager Experience Open: 8:30 AM – 11:15 AM
+- In the Hot Seat Closing Ceremony: 11:30 AM – 12:15 PM | Features CEO Dave Hegemann and CXO Chris Griesinger answering questions while eating spicy wings. Prize raffle.
+ 
+=== BREAKOUT SESSIONS (Tuesday–Thursday) ===
+ 
+--- BEGINNER TRACK ---
+- Service Manager 101 | Presenter: Maria Delgado | Learn to create/resolve service issues, use checklists, link maintenance to invoices, and set up recurring issues.
+- Scripting 101 | Presenter: Tom Harrington | Intro to Rent Manager's command-based scripting language. No experience needed.
+- Bank Reconciliations 101 | Presenter: Linda Fujimoto | Manual and electronic reconciliations, clearing transactions, handling bank fees, troubleshooting discrepancies.
+- Bookkeeping 101 | Presenter: Kevin Ashworth | Foundational bookkeeping practices within Rent Manager.
+- Reporting 101 | Presenter: Priya Nair | Navigate the report list, export data, schedule automated reports, and identify key portfolio health reports.
+- Commercial Management 101 | Presenter: Daniel Reyes | Customize Rent Manager for commercial portfolios, CAM charges, net-leases, pro rata shares.
+- Panel: AmRent | Beginner | Applicant screening, income verification, and streamlining leasing decisions with AmRent integration. Sponsored by AmRent.
+- Panel: Cyber Security | Beginner | Protecting data and systems from evolving threats; incident response best practices.
+- Panel: AvidXchange | Beginner | Automating accounts payable, invoice management, and vendor relationships. Sponsored by AvidXchange.
+ 
+--- INTERMEDIATE TRACK ---
+- Tips & Tricks: rmAppSuite Pro | Presenter: Ashley Monroe | Hidden features and settings in the mobile field app for leasing agents, managers, and maintenance techs.
+- Tips & Tricks: RM Communication | Presenter: Jordan Stiles | Centralizing email, text, and phone in Rent Manager; rmVoIP, phone broadcast, Orion AI communication features.
+- Tips & Tricks: Receivables | Presenter: Carlos Mendoza | Quick-win settings for charge entries, payment processing, and A/R accuracy.
+- Tips & Tricks: Payables | Presenter: Rachel Kim | Smart Bills, eChecks, approval workflows, and streamlining expense management.
+- Tips & Tricks: Metered Utilities | Presenter: Brian Thornton | New RUBS configurations, utility cost recovery tracking, exception alerts for gas, water, and sewer.
+- Tips & Tricks: Pro Scripting Tactics | Presenter: Natalie Owens | Advanced scripting countdown: dynamic functions, commenting strategies, unconventional script locations.
+- Tips & Tricks: 2025-26 Features (ICYMI) | Presenter: Marcus Webb | Rapid-fire overview of the most impactful features and workflow improvements from the last 18 months.
+- Tips & Tricks: User Customizations | Presenter: Diane Park | Tailoring screens, permissions, and layouts for different job roles and staff needs.
+- Tips & Tricks: Orion AI | Presenter: Sam Ellison | Orion AI features: call summaries, report analysis, integrated help, upcoming AI tools, and how to maximize staff productivity.
+- Panel: Leasing & Marketing | Intermediate | Lead generation, digital marketing, tour experiences, and lease conversion strategies from experienced professionals.
+- Panel: Maintenance | Intermediate | Work order management, preventive maintenance, emergency handling, and improving team efficiency.
+- Panel: Operations | Intermediate | CRM best practices, tenant communication, workflow optimization, and overcoming common business challenges.
+- Panel: Industry Insights (Single-Family) | Intermediate | Trends and operational strategies specific to single-family portfolios.
+- Panel: Industry Insights (Multi-Family) | Intermediate | Managing apartment communities at scale, resident experience, leasing coordination.
+- Panel: API | Intermediate | Extending Rent Manager with the open API: automation, third-party integrations, and custom solutions.
+- Panel: Industry Insights (Commercial) | Intermediate | Lease structuring, tenant relations, maintenance coordination, and financial oversight for commercial properties.
+- Panel: Industry Insights (Manufactured Housing) | Intermediate | Lot leasing, resident relations, utility management, and community operations best practices.
+ 
+--- ADVANCED TRACK ---
+- Best Practices: Lease Renewal Automation | Presenter: Olivia Chambers | Fully optimized renewal workflow: automated notifications, multi-term offers, digital signatures, and zero-touch account updates.
+- Best Practices: Home Asset Management | Presenter: Greg Thornton | Modern best-practice model for manufactured housing databases; Site Classifications and dedicated reporting.
+- Best Practices: Prospect Management | Presenter: Vanessa Cruz | Optimized prospect workflows, Prospect Board, online applications, screening, and leasing automation.
+- Best Practices: Building Custom Workflows | Presenter: Noah Peterson | New customized workflow templates combining service issues and tasks for onboarding, complaints, accounting close, and more.
+- Best Practices: Transitioning to Express | Presenter: Fiona Blackwell | Change management roadmap for moving teams to Rent Manager Express; case studies on successful adoption.
+- Best Practices: Third-Party Management | Presenter: Travis Longley | Optimizing owner contracts, management fee collection, reporting automation, and monthly processing for fee-based management.
+- Best Practices: Move-Out Management | Presenter: Stephanie Garza | End-to-end move-out lifecycle: notices, security deposit refunds, eviction workflows, and make-ready coordination.
+- Solutions: Reducing Delinquencies | Presenter: Michael Reeves | KPI targets, real-time dashboard tracking, automated late fees, cashless payment options, and proactive communication.
+- Solutions: Reducing Time to Turn | Presenter: Janet Kowalski | Calculating vacancy cost, tracking Make Ready status, using the Make Ready Board, and real-time marketing integrations.
+- Solutions: Reducing Churn | Presenter: Anthony Ruiz | Measuring churn KPIs, tracking in Rent Manager, "first 90 days" retention, maintenance feedback loops, and renewal incentives.
+- Solutions: Improving Maintenance Response Time | Presenter: Brooke Sullivan | Service issue lifecycle benchmarks, lifecycle reporting, tech-mapping, scheduling tools, and after-hours solutions.
+- Solutions: Handling Report Discrepancies | Presenter: Patrick Lim | Identifying, troubleshooting, and resolving inconsistencies in financial and operational reports.
+- Solutions: Protecting Financial Data | Presenter: Cynthia Holt | Safeguarding financial modules; permission management, self-audit practices, and monthly accounting close process.
+- Panel: Power User Forum | Advanced | Advanced features, automation strategies, and creative solutions from experienced Rent Manager power users.
+ 
+=== GENERAL INFO ===
+- WiFi Network: RMUC2026 | Password: InnovationFlows26
+- Venue: San Antonio, Texas (Exact venue name TBD — check conference.rentmanager.com/venue for details)
+- Conference hashtag: #RMUC26
+- Rent Manager Certification testing available Monday–Thursday
+- All sessions are NARPM Certified
+- Innovation Hall features 75+ PropTech and property management sponsors
