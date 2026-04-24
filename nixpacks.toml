@@ -1,2 +1,8 @@
+[phases.setup]
+nixPkgs = ["nodejs"]
+
 [phases.install]
 cmds = ["npm install --registry https://registry.npmjs.org"]
+
+[phases.build]
+cmds = []
