@@ -1,15 +1,16 @@
+CONFERENCE_DATA = """
 CONFERENCE: RMUC.26 — Rent Manager User Conference
 DATES: October 19–22, 2026
 LOCATION: San Antonio, Texas
 THEME: "Where Innovation Flows"
- 
+
 === MONDAY, OCTOBER 19 (Pre-Conference Day) ===
 - Registration Open: 7:30 AM – 5:15 PM
 - Rent Manager Core Bootcamp: 9:30 AM – 4:30 PM | Room: TBD | Presenter: James Whitfield | Beginner | A 7-hour crash course covering chart of accounts, charge types, properties, units, tenants, user-defined fields, receivables, payables, and the tenant life cycle.
 - Administrator Bootcamp: 9:30 AM – 4:30 PM | Room: TBD | Presenter: Sandra Okafor | Intermediate | A 7-hour event covering daily management workflows, team oversight, security, and making Rent Manager more efficient for staff.
 - Bootcamp Lunch: 12:00 PM – 1:15 PM (Bootcamp attendees only)
 - Dia de los Muertos Opening Reception: 7:30 PM – 9:30 PM (Evening social event, all attendees welcome)
- 
+
 === TUESDAY, OCTOBER 20 ===
 - Breakfast: 7:30 AM – 8:30 AM
 - Registration Open: 7:30 AM – 5:15 PM
@@ -18,7 +19,7 @@ THEME: "Where Innovation Flows"
 - Lunch: 11:30 AM – 12:45 PM
 - Break (Snacks & Drinks): 2:00 PM – 2:30 PM
 - Center Stage at the Aztec Premier Social Event: 6:00 PM – 10:00 PM | Aztec Theatre | Dinner, open bar, live music. Sponsored by AmRent, AvidXchange, LeaseTrack, Rentable, Zego.
- 
+
 === WEDNESDAY, OCTOBER 21 (Main Session Day) ===
 - Breakfast: 7:30 AM – 8:30 AM
 - Innovation Hall & Rent Manager Experience Open: 8:30 AM – 5:15 PM
@@ -26,15 +27,15 @@ THEME: "Where Innovation Flows"
 - Lunch: 11:30 AM – 12:45 PM
 - Break (Snacks & Drinks): 2:00 PM – 2:30 PM
 - Let's Taco Bout It Power Hour (Innovation Hall): 3:45 PM – 5:15 PM | Networking with sponsors and taco treats. Sponsored by AvidXchange.
- 
+
 === THURSDAY, OCTOBER 22 (Final Day) ===
 - Breakfast: 7:30 AM – 8:30 AM
 - Registration Open: 7:30 AM – 11:15 AM
 - Innovation Hall & Rent Manager Experience Open: 8:30 AM – 11:15 AM
 - In the Hot Seat Closing Ceremony: 11:30 AM – 12:15 PM | Features CEO Dave Hegemann and CXO Chris Griesinger answering questions while eating spicy wings. Prize raffle.
- 
+
 === BREAKOUT SESSIONS (Tuesday–Thursday) ===
- 
+
 --- BEGINNER TRACK ---
 - Service Manager 101 | Presenter: Maria Delgado | Learn to create/resolve service issues, use checklists, link maintenance to invoices, and set up recurring issues.
 - Scripting 101 | Presenter: Tom Harrington | Intro to Rent Manager's command-based scripting language. No experience needed.
@@ -45,7 +46,7 @@ THEME: "Where Innovation Flows"
 - Panel: AmRent | Beginner | Applicant screening, income verification, and streamlining leasing decisions with AmRent integration. Sponsored by AmRent.
 - Panel: Cyber Security | Beginner | Protecting data and systems from evolving threats; incident response best practices.
 - Panel: AvidXchange | Beginner | Automating accounts payable, invoice management, and vendor relationships. Sponsored by AvidXchange.
- 
+
 --- INTERMEDIATE TRACK ---
 - Tips & Tricks: rmAppSuite Pro | Presenter: Ashley Monroe | Hidden features and settings in the mobile field app for leasing agents, managers, and maintenance techs.
 - Tips & Tricks: RM Communication | Presenter: Jordan Stiles | Centralizing email, text, and phone in Rent Manager; rmVoIP, phone broadcast, Orion AI communication features.
@@ -64,7 +65,7 @@ THEME: "Where Innovation Flows"
 - Panel: API | Intermediate | Extending Rent Manager with the open API: automation, third-party integrations, and custom solutions.
 - Panel: Industry Insights (Commercial) | Intermediate | Lease structuring, tenant relations, maintenance coordination, and financial oversight for commercial properties.
 - Panel: Industry Insights (Manufactured Housing) | Intermediate | Lot leasing, resident relations, utility management, and community operations best practices.
- 
+
 --- ADVANCED TRACK ---
 - Best Practices: Lease Renewal Automation | Presenter: Olivia Chambers | Fully optimized renewal workflow: automated notifications, multi-term offers, digital signatures, and zero-touch account updates.
 - Best Practices: Home Asset Management | Presenter: Greg Thornton | Modern best-practice model for manufactured housing databases; Site Classifications and dedicated reporting.
@@ -82,28 +83,28 @@ THEME: "Where Innovation Flows"
 - Panel: Power User Forum | Advanced | Advanced features, automation strategies, and creative solutions from experienced Rent Manager power users.
 
 === SOCIAL EVENTS ===
- 
+
 1. Dia de los Muertos Opening Reception
    - Date: Monday, October 19th
    - Time: 7:30 PM – 9:30 PM
    - Location: JW Marriott San Antonio Hill Country Resort and Spa – River Bend Pavilion and Lawn
    - Cost: FREE (included with conference registration)
    - Details: Festive Día de los Muertos-themed evening with a Mariachi band, drinks, and networking. Kicks off the conference week.
- 
+
 2. Innovation Hall Grand Opening
    - Date: Tuesday, October 20th
    - Time: 10:15 AM – 11:30 AM
    - Location: Nelson Wolff Exhibit Ballroom
    - Cost: FREE (included with conference registration)
    - Details: Exclusive first look at 75+ sponsor booths. Connect with Rent Manager staff, explore PropTech solutions, and earn raffle tickets.
- 
+
 3. Mealtime Networking (Breakfast & Lunch)
    - Dates: Tuesday Oct 20 through Thursday Oct 22
    - Breakfast: 7:30 AM – 8:30 AM | Lunch: 11:30 AM – 12:45 PM
    - Location: Grand Oaks Ballroom K-S
    - Cost: FREE (included with conference registration)
    - Details: Themed sit-down meals arranged to connect attendees with shared interests and professional backgrounds.
- 
+
 4. Center Stage at the Aztec — Premier Social Event
    - Date: Tuesday, October 20th
    - Time: 6:00 PM – 10:00 PM
@@ -111,7 +112,7 @@ THEME: "Where Innovation Flows"
    - Cost: $150 per ticket (purchased separately)
    - Sponsored by: AmRent, AvidXchange, LeaseTrack, Rentable, Zego
    - Details: High-energy evening at the historic 100-year-old Aztec Theatre. Includes dinner, open bar, live band, and dancing. After-party options available along the San Antonio Riverwalk. This is the RMUC "must-attend" night event.
- 
+
 5. Let's Taco 'Bout It Power Hour
    - Date: Wednesday, October 21st
    - Time: 3:45 PM – 5:15 PM
@@ -119,14 +120,14 @@ THEME: "Where Innovation Flows"
    - Cost: FREE (included with conference registration)
    - Sponsored by: AvidXchange
    - Details: Networking fiesta in Innovation Hall with taco bar, drinks, sponsor demos, RMUC merch, and attendee mingling.
- 
+
 6. In the Hot Seat Closing Ceremony
    - Date: Thursday, October 22nd
    - Time: 11:30 AM – 12:15 PM
    - Location: Grand Oaks Ballroom G-J
    - Cost: FREE (included with conference registration)
    - Details: Hot Ones-inspired spicy wing challenge featuring CEO Dave Hegemann and CXO Chris Griesinger, hosted by Director of Partnerships Joe Easton. Ends with a prize raffle. Officially closes RMUC.26.
- 
+
 === VIP PASS ===
 - Cost: $175 per person (add-on to standard registration)
 - Sponsored by: LeaseTrack
@@ -140,78 +141,6 @@ THEME: "Where Innovation Flows"
   * Guaranteed Product Support appointment (no wait)
   * 20% off Rent Manager merchandise
 
-=== SPONSORS ===
- 
---- DIAMOND SPONSORS (highest level) ---
- 
-1. AmRent | Category: Resident Screening & Income Verification
-   Built-in screening integrated directly into Rent Manager. Runs criminal & housing court records, credit reports, digital income verification (bank access), and identity/synthetic ID verification. Screening can be automated as part of the online application or triggered manually. All data stored in Rent Manager. Also hosts the AmRent Panel Discussion session and co-sponsors Center Stage at the Aztec.
- 
-2. AvidXchange | Category: Accounts Payable Automation
-   Built-in AP automation inside Rent Manager's Invoices workflow. AvidInvoice uses AI to scan vendor invoices automatically into Rent Manager. AvidPay enables one-click, no-cost vendor payments via check, ACH, or virtual credit card with real-time visibility. Also co-sponsors the Let's Taco 'Bout It Power Hour, Center Stage at the Aztec, and hosts the AvidXchange Panel Discussion session.
- 
-3. LeaseTrack | Category: Renters Insurance Tracking & Compliance
-   Built into Tenant Web Access (TWA) and rmResident app. Tracks all tenant insurance policies automatically at no cost. Tenants without insurance can be auto-enrolled in the Master Policy Program. Managers can generate revenue through Master Policy charge rates. Offers HO4 policies with liability starting at $100,000 and personal property at $10,000. Sponsors the RMUC.26 VIP Pass and co-sponsors Center Stage at the Aztec.
- 
-4. Rentable | Category: Security Deposit Automation
-   Automates security deposit handling while maintaining legal compliance. Residents can pay deposits over time, earn interest, and build credit. Deposits are refunded 10x faster via ACH. Reduces deposit administration costs by 75%. Co-sponsors Center Stage at the Aztec.
- 
-5. Zego | Category: Digital Resident Payments & Utility Management
-   Built-in payment solutions supporting credit/debit, ACH, flexible installments, CashPay (cash at 30,000+ locations), check scanning, and lockbox. Automates security deposit refunds, owner distributions, and AR reconciliation. Zego Utility Management handles utility bill auditing, payment, and expense recovery including Vacant Cost Recovery. Co-sponsors Center Stage at the Aztec.
- 
---- PLATINUM SPONSORS ---
- 
-6. Boom | Category: Tenant Screening & Rent Reporting
-   Two integrated products: BoomScreen offers configurable tenant screening with criminal/eviction reports, three-way identity verification, income document scanning, and fraud detection. BoomReport automatically reports rent payments to all three credit bureaus (Experian, Equifax, TransUnion) for manufactured housing, single-family, and multifamily. Residents manage credit via the Boom mobile app (iOS/Android).
- 
-7. Conservice | Category: Utility Management & Bill Pay
-   Known as "The Utility Experts." Services include resident utility billing, utility bill pay (eliminates late fees), U.S.-based resident call center, ownership change utility management, rate audit & procurement, and ENERGY STAR energy benchmarking. Maximizes cost recovery and simplifies utility management.
- 
-8. Rent Butter | Category: Advanced Tenant Screening
-   Combines eviction, criminal, bankruptcy, bank transaction history, and credit behavior analytics into one predictive tenant report. Shows credit score trends (not just current score). Connects directly to applicants' bank accounts for income/employment verification. Also sponsors registration area signage throughout the conference (all 4 days).
- 
-9. Spherexx | Category: Internet Marketing & PropTech Software
-   Performance-driven software developer and internet marketing provider for real estate since 2000 (US & Canada). Products include ILoveLeasing CRM, ad automation, website services, and data analytics for multifamily, single-family, affordable, senior, military, rent control, and manufactured housing — all integrated with Rent Manager. International Webby Award winner.
- 
---- GOLD SPONSORS ---
- 
-10. RentDebt | Category: Debt Collection & Collections Automation
-    Nationwide rental debt collection service, fully integrated with Rent Manager for easy bad-debt submission. Uses propensity-to-pay scoring, credit reporting, settlement campaigns, and litigation services to maximize portfolio revenue recovery.
- 
-11. Domos | Category: AI Property Management Workforce
-    AI assistant automating resident lifecycle tasks 24/7 — prospect communications, tour scheduling, maintenance coordination, collections, violations, and renewals — via phone, email, SMS, and web chat. Integrated with Rent Manager. Claims 60% faster lead-to-lease and up to 80% decrease in delinquency. Serves multifamily, single-family, and manufactured housing.
- 
---- SILVER SPONSORS ---
- 
-12. SpeedRead Technologies (Cereniti) | Category: Automatic Meter Reading (AMR) & Sub-Metering
-    Cereniti provides AMR radio technology for sub-metering water, gas, and electricity for multifamily, single-family, commercial, and retail properties and marinas. Uses FCC-licensed transmitters. Reads accessible via the Cereniti Data Sense portal and API. Can read 99.9% of all meters with daily alerts and accurate billing data.
- 
-13. Metron | Category: Smart Water Management
-    AI-driven smart water management with near real-time usage insights. WaterScope™ software tracks consumption every 5 minutes and detects leaks. 30+ years of experience, 8,000+ customers, 500,000+ devices installed, 1.3 billion gallons conserved. Can potentially lower resident water bills by 30%.
- 
-14. Lula | Category: On-Demand Property Maintenance
-    AI-powered maintenance management with a network of 7,000+ vetted, licensed, and insured professionals available 24/7/365. Integrates with Rent Manager for automated dispatch, communication, and invoicing. AI triage, real-time updates, before/after photos, and a service guarantee on all work.
- 
---- BRONZE SPONSORS ---
- 
-15. Foxen | Category: Renters Insurance & Rent Reporting
-    Renters insurance compliance tracking, rent reporting, and resident credit building — integrated with Rent Manager. Creates ancillary income streams for property owners. Built by property management industry veterans.
- 
-16. Opiniion | Category: Online Reputation Management
-    Fully automated platform that drives positive online reviews by sending review requests triggered by meaningful resident events in Rent Manager. Delivers real-time alerts for negative feedback so managers can respond quickly. Includes targeted custom survey tools.
- 
-17. PetScreening | Category: Pet Policy Management & ESA Verification
-    Pet and assistance animal verification software integrated with Rent Manager. In-house ESA review team authenticates documentation with healthcare providers to stop fraud. FIDO Score™ assigns risk levels to pets for adjusting deposits and fees. Reduces unauthorized animals and helps increase pet revenue.
- 
-18. Waste Metrics | Category: Waste & Recycling Consulting
-    Waste management consulting that helps property managers reduce waste costs and improve recycling programs. Website: wastemetricsconsulting.com
- 
-19. RentEngine | Category: AI-Powered Leasing Platform
-    All-in-one AI leasing platform with premium marketing syndication, smart scheduling, agent and self-guided tours, SentriLock lockbox integration, CRM (with calling/texting), and 24/7 AI lead response. Fraud Guard blocks fake leads with ID verification. Claims 20% more qualified leads. Integrated with Rent Manager.
- 
-20. CredHub | Category: Rent Reporting & Credit Building
-    Automatically reports rent payments to credit bureaus. Claims an average 50% reduction in payment delinquency for users. Generates a new monthly revenue stream for property managers while helping residents build positive credit histories.
- 
 === GENERAL INFO ===
 - WiFi Network: RMUC2026 | Password: InnovationFlows26
 - Venue: JW Marriott San Antonio Hill Country Resort & Spa | 23808 Resort Parkway, San Antonio, Texas 78261
@@ -223,3 +152,420 @@ THEME: "Where Innovation Flows"
 - Sessions will NOT be recorded or shared post-conference; handouts may be available
 - Dress code: Business casual for sessions and meals; optional themed dress for social events
 - Bring: Laptop or tablet, charger, notebook, and business cards
+
+=== SPONSORS ===
+
+--- DIAMOND SPONSORS (highest level) ---
+
+1. AmRent | Category: Resident Screening & Income Verification
+   Built-in screening integrated directly into Rent Manager. Runs criminal & housing court records, credit reports, digital income verification (bank access), and identity/synthetic ID verification. Screening can be automated as part of the online application or triggered manually. All data stored in Rent Manager. Also hosts the AmRent Panel Discussion session and co-sponsors Center Stage at the Aztec.
+
+2. AvidXchange | Category: Accounts Payable Automation
+   Built-in AP automation inside Rent Manager's Invoices workflow. AvidInvoice uses AI to scan vendor invoices automatically into Rent Manager. AvidPay enables one-click, no-cost vendor payments via check, ACH, or virtual credit card with real-time visibility. Also co-sponsors the Let's Taco 'Bout It Power Hour, Center Stage at the Aztec, and hosts the AvidXchange Panel Discussion session.
+
+3. LeaseTrack | Category: Renters Insurance Tracking & Compliance
+   Built into Tenant Web Access (TWA) and rmResident app. Tracks all tenant insurance policies automatically at no cost. Tenants without insurance can be auto-enrolled in the Master Policy Program. Managers can generate revenue through Master Policy charge rates. Offers HO4 policies with liability starting at $100,000 and personal property at $10,000. Sponsors the RMUC.26 VIP Pass and co-sponsors Center Stage at the Aztec.
+
+4. Rentable | Category: Security Deposit Automation
+   Automates security deposit handling while maintaining legal compliance. Residents can pay deposits over time, earn interest, and build credit. Deposits are refunded 10x faster via ACH. Reduces deposit administration costs by 75%. Co-sponsors Center Stage at the Aztec.
+
+5. Zego | Category: Digital Resident Payments & Utility Management
+   Built-in payment solutions supporting credit/debit, ACH, flexible installments, CashPay (cash at 30,000+ locations), check scanning, and lockbox. Automates security deposit refunds, owner distributions, and AR reconciliation. Zego Utility Management handles utility bill auditing, payment, and expense recovery including Vacant Cost Recovery. Co-sponsors Center Stage at the Aztec.
+
+--- PLATINUM SPONSORS ---
+
+6. Boom | Category: Tenant Screening & Rent Reporting
+   Two integrated products: BoomScreen offers configurable tenant screening with criminal/eviction reports, three-way identity verification, income document scanning, and fraud detection. BoomReport automatically reports rent payments to all three credit bureaus (Experian, Equifax, TransUnion) for manufactured housing, single-family, and multifamily. Residents manage credit via the Boom mobile app (iOS/Android).
+
+7. Conservice | Category: Utility Management & Bill Pay
+   Known as "The Utility Experts." Services include resident utility billing, utility bill pay (eliminates late fees), U.S.-based resident call center, ownership change utility management, rate audit & procurement, and ENERGY STAR energy benchmarking. Maximizes cost recovery and simplifies utility management.
+
+8. Rent Butter | Category: Advanced Tenant Screening
+   Combines eviction, criminal, bankruptcy, bank transaction history, and credit behavior analytics into one predictive tenant report. Shows credit score trends (not just current score). Connects directly to applicants' bank accounts for income/employment verification. Also sponsors registration area signage throughout the conference (all 4 days).
+
+9. Spherexx | Category: Internet Marketing & PropTech Software
+   Performance-driven software developer and internet marketing provider for real estate since 2000 (US & Canada). Products include ILoveLeasing CRM, ad automation, website services, and data analytics for multifamily, single-family, affordable, senior, military, rent control, and manufactured housing — all integrated with Rent Manager. International Webby Award winner.
+
+--- GOLD SPONSORS ---
+
+10. RentDebt | Category: Debt Collection & Collections Automation
+    Nationwide rental debt collection service, fully integrated with Rent Manager for easy bad-debt submission. Uses propensity-to-pay scoring, credit reporting, settlement campaigns, and litigation services to maximize portfolio revenue recovery.
+
+11. Domos | Category: AI Property Management Workforce
+    AI assistant automating resident lifecycle tasks 24/7 — prospect communications, tour scheduling, maintenance coordination, collections, violations, and renewals — via phone, email, SMS, and web chat. Integrated with Rent Manager. Claims 60% faster lead-to-lease and up to 80% decrease in delinquency. Serves multifamily, single-family, and manufactured housing.
+
+--- SILVER SPONSORS ---
+
+12. SpeedRead Technologies (Cereniti) | Category: Automatic Meter Reading (AMR) & Sub-Metering
+    Cereniti provides AMR radio technology for sub-metering water, gas, and electricity for multifamily, single-family, commercial, and retail properties and marinas. Uses FCC-licensed transmitters. Reads accessible via the Cereniti Data Sense portal and API. Can read 99.9% of all meters with daily alerts and accurate billing data.
+
+13. Metron | Category: Smart Water Management
+    AI-driven smart water management with near real-time usage insights. WaterScope™ software tracks consumption every 5 minutes and detects leaks. 30+ years of experience, 8,000+ customers, 500,000+ devices installed, 1.3 billion gallons conserved. Can potentially lower resident water bills by 30%.
+
+14. Lula | Category: On-Demand Property Maintenance
+    AI-powered maintenance management with a network of 7,000+ vetted, licensed, and insured professionals available 24/7/365. Integrates with Rent Manager for automated dispatch, communication, and invoicing. AI triage, real-time updates, before/after photos, and a service guarantee on all work.
+
+--- BRONZE SPONSORS ---
+
+15. Foxen | Category: Renters Insurance & Rent Reporting
+    Renters insurance compliance tracking, rent reporting, and resident credit building — integrated with Rent Manager. Creates ancillary income streams for property owners. Built by property management industry veterans.
+
+16. Opiniion | Category: Online Reputation Management
+    Fully automated platform that drives positive online reviews by sending review requests triggered by meaningful resident events in Rent Manager. Delivers real-time alerts for negative feedback so managers can respond quickly. Includes targeted custom survey tools.
+
+17. PetScreening | Category: Pet Policy Management & ESA Verification
+    Pet and assistance animal verification software integrated with Rent Manager. In-house ESA review team authenticates documentation with healthcare providers to stop fraud. FIDO Score™ assigns risk levels to pets for adjusting deposits and fees. Reduces unauthorized animals and helps increase pet revenue.
+
+18. Waste Metrics | Category: Waste & Recycling Consulting
+    Waste management consulting that helps property managers reduce waste costs and improve recycling programs. Website: wastemetricsconsulting.com
+
+19. RentEngine | Category: AI-Powered Leasing Platform
+    All-in-one AI leasing platform with premium marketing syndication, smart scheduling, agent and self-guided tours, SentriLock lockbox integration, CRM (with calling/texting), and 24/7 AI lead response. Fraud Guard blocks fake leads with ID verification. Claims 20% more qualified leads. Integrated with Rent Manager.
+
+=== RENT MANAGER PRODUCT FEATURES ===
+
+These are the core Rent Manager product features discussed at RMUC.26 sessions and available for demonstration at the Rent Manager Experience in Innovation Hall.
+
+--- ACCOUNTING ---
+Rent Manager includes a complete double-entry accounting system that works in both cash and accrual accounting simultaneously. Key capabilities include:
+
+Accounts Receivable (A/R): Automate your monthly A/R cycle with A/R Automation — deliver delinquency notices via email, text, phone broadcast, or Virtual Post Office on a preset schedule. Create Charge Types (rent, late fees, parking, storage, etc.), receive and record payments, and make bank deposits directly in Rent Manager.
+
+Accounts Payable (A/P): Create and pay one-time or recurring vendor bills, write and print checks directly from the software, manage credit card registers, and access full vendor contact and transaction history. AvidXchange integration enables no-cost digital vendor payments via AvidPay and AI-powered invoice scanning via AvidInvoice.
+
+Payments: Process digital payments via ePay (credit/debit cards), CashPay (cash at 30,000+ CheckFreePay locations), Check Scanning, Lockbox (powered by Zego), eChecks, and no-cost vendor payments via AvidPay.
+
+AI-Powered AR/AP Automation (new features): Bank Sync — securely connect bank and credit card accounts for AI-assisted reconciliation. Smart Bills — automatically capture invoice data and create payables. Smart Receipts — snap a photo of a receipt to auto-create a payable. Smart Check Scanning — automatically reads handwritten check details to minimize errors.
+
+Electronic Bank Reconciliations: Reconcile bank and credit card accounts electronically using imported bank statements.
+
+Financial Reporting: Generate Balance Sheet, General Ledger, Profit & Loss, Aged Receivables, Charge Detail, and Delinquency Reports in seconds.
+
+Tax Tools: Generate vendor and owner 1099s, support electronic filing through the IRS FIRE system, and manage year-end close processes.
+
+Budgeting: Track income and expenses against projected budgets, set budget warnings on financial transactions, and generate budget analysis reports.
+
+Purchase Orders: Create, approve, and track purchase orders linked to bills and invoices, with status tracking (pending/approved/denied) and inventory quantity updates.
+
+Loan Manager: Track thousands of owner-financed loans within Rent Manager, charge principal and interest like rent, estimate monthly payments, and calculate loan payoff amounts.
+
+Utility Billing: Enter meter readings for gas, water, electric, and sewage each billing period and charge tenants directly within the software. See also: Metered Utilities in the Maintenance section.
+
+Commercial Module: Manage commercial charges, CAM reconciliations, and produce commercial tenant/owner/vendor statements.
+
+--- REPORTING ---
+Rent Manager includes 450+ pre-built reports plus custom report-building tools:
+
+Built-In Reports (450+): Includes Audit Trail, Balance Sheet, General Ledger, Profit & Loss, Aged Receivables, Budget reports, Prospect Box Score, Summary Rent Roll, Vacancy Report, Tax Forms (1099s), and state-specific forms like the Minnesota CRP.
+
+Report Writer: Drag-and-drop custom report builder for property, tenant, prospect, owner, vendor, and unit reports. Includes pre-defined functions and variables specific to Rent Manager.
+
+Financial Report Writer: Create or modify financial reports from scratch in any format, full of accounting data tailored to your business needs.
+
+Report Automation (Rent Manager Online feature): Automatically generate and deliver scheduled report batches via email. Run multiple reports simultaneously with one click. Administrators can monitor delivery history and receive alerts if a batch fails.
+
+Custom Reports: Rent Manager's Professional Services team can build reports entirely from scratch based on your specific requirements.
+
+--- MAINTENANCE ---
+Rent Manager manages the full maintenance lifecycle from issue creation to resolution:
+
+Service Issues: Create, track, assign, and resolve maintenance tasks with status tracking (New, Work in Progress, Resolved, etc.). Memorize recurring issue templates for one-click creation. Field techs using rmAppSuite Pro can update issues in real time with GPS check-ins and tenant electronic sign-offs.
+
+Maintenance Scheduling: Assign technicians, manage availability and working hours, group properties and techs, and let residents self-schedule service requests via Tenant Web Access (TWA) or the rmResident app. Automated notifications keep everyone updated when requests are created, scheduled, confirmed, and closed.
+
+Issue Checklists: Add step-by-step checklists to service issues, mark steps complete, and advance issues to the next user in the workflow.
+
+Service Tech Map: View real-time GPS locations of all rmAppSuite Pro field techs on a map, updated when techs check in to service issues.
+
+Work Orders & Integrated Billing: Attach billable expenses directly to work orders and charge back to tenants or owners via invoices, with optional markup amounts.
+
+Inspections: Conduct customizable inspections from the rmAppSuite Pro app — capture notes, photos, and videos; use reusable templates; create service issues directly from inspection findings.
+
+Make Ready Boards: Visual board showing units in the make-ready process with color-coded status for service issues and inspections. Simplifies unit turnover and task delegation.
+
+Metered Utilities: Enter meter readings (gas, water, sewer, electric) via scanner, mobile device, or import. Post utility charges to tenants, track consumption history, and handle complex billing with Metered Utilities Plus (for Texas, California, Michigan, Arizona and other states requiring special calculations).
+
+Project Management: Convert multifaceted tasks like move-ins and move-outs into clear, delegated steps for your team.
+
+--- MARKETING & LEASING ---
+Rent Manager provides tools to attract, screen, and convert prospects into tenants:
+
+Prospect & Tenant Portal (Tenant Web Access / TWA): Online portal where prospects can browse available units, submit applications, and pay application fees. Existing tenants can pay rent, submit maintenance requests, upload insurance documents, and manage their account — all without calling the office.
+
+Resident Screening: Built-in screening powered by AmRent — run credit, criminal, eviction, income verification, and identity checks directly from an applicant's record in Rent Manager.
+
+Guest Cards: Capture and track prospect inquiries, schedule follow-ups, log communication history, and manage your leasing pipeline.
+
+Prospect Board: Visual kanban-style board for tracking where each prospect is in the leasing funnel.
+
+ILS Advertising: Syndicate your available listings to major Internet Listing Services (ILS) including Zillow, Apartments.com, and others, directly from Rent Manager.
+
+Website Services: Rent Manager offers professional property management websites that sync live with your available units.
+
+Web Chat: Built-in web chat widget for your property websites to capture and respond to prospect inquiries in real time.
+
+rmResident App: Mobile app for residents to pay rent, submit maintenance requests, receive communications, and manage their account from their smartphone.
+
+Lease Management: Create, send, and collect e-signatures on leases directly in Rent Manager.
+
+--- BUSINESS OPERATIONS ---
+Rent Manager centralizes communications, mobile tools, and day-to-day operational workflows:
+
+Communication Tools (RM Communication): Send and receive email, text (SMS), and phone calls from within Rent Manager. Centralize all resident and owner communication history in one place. Includes rmVoIP for softphone calling, phone broadcast for mass voice messages, and Orion AI for AI-powered communication features (call summaries, automated responses).
+
+Mobile App (rmAppSuite Pro): Full-featured mobile app for property managers, leasing agents, and maintenance technicians. Manage service issues, conduct inspections, read meters, view schedules, check in to jobs via GPS, collect e-signatures, and process payments — all from a smartphone or tablet.
+
+Orion AI: Rent Manager's built-in AI assistant. Features include AI call summaries, report analysis, integrated help, automated communication drafting, and an expanding suite of AI-powered productivity tools.
+
+Renters Insurance: Track tenant insurance compliance (via LeaseTrack integration), auto-enroll non-compliant tenants in a master policy, and generate compliance reports.
+
+Call Center: Rent Manager's optional call center service handles after-hours and overflow calls on your behalf.
+
+Owners Portal: Give property owners secure online access to their statements, reports, documents, and property data — reducing owner call volume.
+
+Project Management: Build structured workflows for complex tasks like move-ins, move-outs, onboarding, and lease renewals using linked service issues and tasks.
+
+User-Defined Fields (UDFs): Customize Rent Manager screens and records with your own data fields to capture information unique to your business.
+
+Security & Permissions: Set granular user permissions to control what each staff member can see and do in the software. Includes full audit trail reporting.
+
+--- SOFTWARE CUSTOMIZATION ---
+Rent Manager is highly extensible and customizable:
+
+API (Application Programming Interface): The Rent Manager Web API provides full read/write access to your Rent Manager Online (RMO) database. Developers can build custom integrations, pull live data, push data in, and create fully custom applications on top of Rent Manager. The API supports connecting to 300+ third-party PropTech solutions.
+
+Open Access: Read-only database views of your live RMO database. Developers and the Professional Services team can use these views to build custom queries, dashboards, and applications without affecting live data.
+
+Scripting: Rent Manager includes a built-in command-based scripting language that allows advanced users to automate workflows, customize screens, and create dynamic processes without needing full developer resources.
+
+User Customizations: Customize screen layouts, field labels, permissions, and workflows for different job roles and team members. Tailor the software to match how your specific business operates.
+
+Integrations Program: Over 300 PropTech integration partners available in the Rent Manager Integrations Program — including screening, payments, utilities, marketing, maintenance, AI tools, and more.
+
+20. CredHub | Category: Rent Reporting & Credit Building
+    Automatically reports rent payments to credit bureaus. Claims an average 50% reduction in payment delinquency for users. Generates a new monthly revenue stream for property managers while helping residents build positive credit histories.
+
+=== ABOUT RENT MANAGER & LCS ===
+
+Company: Rent Manager is a product of London Computer Systems (LCS), headquartered at 9140 Waterstone Blvd, Cincinnati, Ohio 45249. Phone: 513-583-1482.
+
+Origin Story: Rent Manager was created in the early 1980s by Dave Hegemann, LCS President & CEO, who wrote the original code on an Apple II to help his father manage a mixed-use property. The first commercial version was distributed on floppy disk. Dave traveled to local property management trade shows to sell it personally. What began as a family solution grew into a platform used by over 10,000 property management companies across every industry vertical.
+
+Scale: Rent Manager is used by more than 10,000 property management companies across the United States and Canada. LCS has 500+ employees and has been in the industry for 37+ years. The company carries zero debt and has won the Cincinnati Top Workplace Award 14 times.
+
+Mission: Rent Manager exists to make property management professionals' work lives easier and their businesses more profitable. The company prioritizes personal connections with customers, prospects, and partners — through product support, trade shows, onsite training, and RMUC.
+
+LCS Product Portfolio:
+- Rent Manager: Flagship property management software (advanced accounting, leasing, maintenance, reporting, AI tools)
+- rmVoIP: Hosted VoIP telephone system integrated directly with Rent Manager
+- qManage: Service desk software for managing customer service issues (qmanage.com)
+- Web Design & Development: Custom property management websites that integrate with Rent Manager
+- IT Services: Remote Workforce Management, VPN security, IT Management & Consulting, Backup & Disaster Recovery (itservices.lcs.com)
+
+History Timeline:
+- 1980s: Dave Hegemann creates the software on an Apple II; first release on floppy disk
+- 1990s: Rent Manager 6.3 released; Rent Manager Online (RMO) launched for internet/cloud access
+- 2000s: Rent Manager XP and Xi released; first Rent Manager User Conference held (140 attendees at Belterra Casino Resort, Florence, Indiana)
+- 2010s: First Android/iOS app (rmAppSuite) launched; Rent Manager 12 released; Integrations Program launched; rmAppSuite Pro released
+- 2020s: rmResident app launched for tenants; Rent Manager Express released (cloud-accessible, combines all RM 12 features and more)
+
+Industry Affiliations (partial list): NAA, NARPM (Official Partner), IREM (President-Level Partner), MHI, CAI, NMHC, BOMA, AAGD, CAA, GCNKAA, GDAA, GNAA, IAA, FMHA, KMHI, MMHA, and others.
+
+Awards (recent): SaaS Awards 2024 Winner, SIIA CODiE 2024 Winner, American Business Awards (Globee) 2024, HousingWire HW Tech100 2023, Silver Stevie Award for Customer Service 2023-2025, Brandon Hall HCM Excellence Awards (Silver 2020, Bronze 2021), Software Advice Best Customer Support 2024.
+
+=== PRICING & BUNDLES ===
+
+Rent Manager is offered in three tiers. Pricing is customized per quote based on portfolio size — contact Rent Manager for a personalized quote at rentmanager.com/free-demo.
+
+BASIC Bundle includes:
+- 450+ built-in financial and property-related reports
+- Complete accounting system
+- Work order management
+- Comprehensive marketing & leasing tools
+- Online applications & unlimited eSignatures
+- Owner/prospect portals & tenant app
+- Unlimited custom fields
+- Live support
+- Vendor management & no-cost vendor pay (via AvidXchange)
+- P.O. system & inventory management
+
+PLUS Bundle includes everything in Basic, plus:
+- Survey analytics hub
+- Text & phone broadcast
+- rmAppSuite Pro mobile app
+- Service Tech Mapping
+- Enhanced implementation & data importing
+- AI-powered writing assistant
+- AI-powered AR/AP suite (Smart Bills, Smart Receipts, Smart Check Scanning, Bank Sync)
+- AI-powered report analysis
+
+PREMIUM Bundle includes everything in Plus, plus:
+- Video inspections
+- Maintenance Scheduling
+- Dedicated Customer Success Team
+
+Add-On Services (available for any bundle):
+- Call Center (24/7 maintenance and leasing support, provided by Anequim)
+- Custom Websites (built by Rent Manager's Professional Services Web Team)
+- Integrated Phones (rmVoIP — make/receive calls directly from Rent Manager)
+- 300+ Integrations (third-party PropTech partners)
+- Rent Manager API (available as an add-on for any bundle)
+
+Notes: Built-in integrations may require additional terms and fees. Texting requires a text-enabled phone number subscription. Implementation package is 2x your monthly fee.
+
+=== CUSTOMER SUPPORT ===
+
+Support Hours: Monday–Friday, 8:00 AM – 7:00 PM Eastern. Phone: 513-583-1482. For urgent after-hours issues, emergency technical support is available nights and weekends.
+
+Support Quality: Rent Manager's support team is award-winning. Each Product Support Representative specializes in specific areas of the software for expert guidance. Multiple Silver Stevie Awards for customer service excellence.
+
+Help Resources:
+- In-app Help File: Click the "?" icon anywhere in Rent Manager to open context-specific help documentation
+- Remote Assistance: Download tool that allows support reps to diagnose complex issues remotely
+- Feature Requests: Submit ideas for software enhancements at rentmanager.com/submit-a-feature-request
+- Facebook User Forum: Private group for Rent Manager customers to share tips, ask questions, and connect with other users (current customers only)
+
+Customer Success Program (Premium bundle): A dedicated team of 4–6 Rent Manager experts assigned to your business. Provides a direct team phone line, product demonstrations, best-practice consulting, long-term planning support, and personalized relationship management with your key decision makers.
+
+Tenant Support Note: Rent Manager provides software to property management companies — not directly to tenants. For help with paying rent, lease renewals, or account questions, tenants should contact their property management company directly. Tenants can download the free rmResident app for self-service.
+
+=== TRAINING ===
+
+Rent Manager University (RMU): An all-inclusive online training portal with hundreds of courses, instructional videos, and self-paced learning paths. The same platform used internally to train Rent Manager employees.
+- RMU Plus: Unlimited user logins + full course library access for your entire team
+- RMU Premium: Full Learning Management System (LMS) — create accounts, assign courses, monitor performance, run training reports, and build custom courses
+
+Guided Online Training Options:
+- Virtual Classroom: Live digital classroom sessions with a Rent Manager expert demonstrating essential tasks
+- Weekly Webinars: Free, every Thursday at 2:00 PM Eastern — a deep dive into a new feature or enhancement each week
+- Integrations Spotlight: Weekly webinar series where third-party integration partners demo their Rent Manager connection live
+
+Rent Manager Certification: Four available certifications, all earned through hands-on assessments inside the actual software (not multiple choice):
+1. Core Certification — standard day-to-day property management tasks
+2. Third-Party Management Certification — essential tasks for fee-based/third-party property management
+3. Bookkeeping Certification — crucial bookkeeping tasks in Rent Manager
+4. Scripting Certification — mastery of Rent Manager's scripting language and functions
+Certification is available in both Rent Manager 12 and Rent Manager Express platforms. Testing is also available at RMUC Monday–Thursday.
+
+Custom Training: Rent Manager's training team can build customized courses around your specific business needs, delivered onsite at your location, at LCS headquarters in Cincinnati, or via virtual session.
+
+Awards: Brandon Hall HCM Excellence Award (Silver 2020, Bronze 2021), Lenny Award 2019.
+
+=== DATA SECURITY ===
+
+Rent Manager takes data security seriously and maintains multiple layers of protection:
+
+Granular Access Controls: Comprehensive permissions system lets administrators customize user access down to the individual property level. Enforces the principle of least privilege.
+
+Encrypted Fields: Sensitive data including Social Security numbers and credit card numbers are encrypted within the database to limit visibility.
+
+Multifactor Authentication (MFA): Requires two forms of verification at login to prevent unauthorized database access.
+
+PCI Level 1 Compliance: Electronic payments are processed through a PCI Level 1 compliant system via Zego — the highest level of payment security compliance.
+
+SOC2 Type 2 Certified: Achieved through a comprehensive third-party audit, confirming Rent Manager's commitment to securely managing confidential and private information. Full SOC2 report available upon request at info.rentmanager.com/soc2-typeii.
+
+NIST Cybersecurity Framework: Rent Manager's security strategy is built on NIST guidelines — the industry-leading federal cybersecurity framework.
+
+TLS Encryption: All data in transit is encrypted using TLS 1.2 or higher, protecting communications between systems.
+
+Offsite Data Centers: Data is backed up in secure, access-controlled, camera-monitored offsite data centers with 24/7 monitoring and multiple daily backups.
+
+=== INDUSTRIES SERVED ===
+
+Rent Manager serves property management companies across all major property types:
+- Residential (single-family homes, multifamily apartments)
+- Commercial (office, retail, industrial)
+- Manufactured Housing / Mobile Home Communities
+- Associations (HOA, condo associations)
+- Student Housing
+- RV Parks & Campgrounds
+- Self Storage
+- Affordable Housing (HUD, Section 8, tax credit)
+- Vacation Homes / Short-Term Rentals
+- Other Markets (marinas, mixed-use, etc.)
+
+The software is designed to scale from small independent landlords to large management companies with thousands of units across multiple states.
+
+=== GETTING STARTED WITH RENT MANAGER ===
+
+Free Demo: Prospective customers can request a free personalized demo at rentmanager.com/free-demo. A Rent Manager representative will walk through the software based on your portfolio type and operational needs.
+
+Implementation: The onboarding process includes a guided implementation package (priced at 2x your monthly fee) covering database setup, configuration, and workflow building tailored to your business.
+
+Data Migration: Rent Manager's team can assist with migrating data from your existing property management software into Rent Manager.
+
+Contact: 513-583-1482 | rentmanager.com | 9140 Waterstone Blvd, Cincinnati, OH 45249
+
+=== RMUC.26 FREQUENTLY ASKED QUESTIONS ===
+
+--- REGISTRATION ---
+Q: How much does conference registration cost?
+A: Early Bird registration is $900 for the first and second attendees. A discounted rate of $750 (Early Bird) applies to the third attendee and beyond.
+
+Q: What is the multi-attendee discount?
+A: The third registration and any additional registrations get a discounted rate — $750 for Early Bird pricing.
+
+Q: What is the VIP Pass and how much does it cost?
+A: The VIP Pass is a $175 add-on per attendee. It includes: dedicated VIP check-in, exclusive pre-event with the C-Suite, custom VIP bag and lanyard, priority seating at the Keynote and Closing Ceremony, VIP Lounge access (drinks, snacks), a complimentary professional headshot, guaranteed Product Support appointment, and 20% off Rent Manager merch.
+
+Q: Is there a registration deadline?
+A: General registration ends Friday, September 25th, 2026. Registering after this date will incur a late fee.
+
+Q: What is the refund policy?
+A: Full refund (100%) for cancellations by August 21st, 2026. 50% refund for cancellations between August 21st and September 18th, 2026. No refunds after September 18th, 2026. Hotel cancellations are handled separately by the hotel.
+
+Q: Can I transfer my registration to someone else?
+A: Yes. Name changes and substitutions are allowed until September 18th, 2026.
+
+Q: What does registration include?
+A: Registration includes: access to all sessions and seminars, Keynote and Closing Ceremony, Innovation Hall, Monday Opening Reception, all breakfasts/lunches/snacks, live product demos, one-on-one consultations, and a digital conference workbook.
+
+--- GENERAL EVENT ---
+Q: When is the conference?
+A: October 19–22, 2026. Bootcamps start Monday the 19th; the Closing Ceremony wraps things up Thursday the 22nd.
+
+Q: Do I need to be using Rent Manager Express to attend?
+A: No. Express is recommended but not required. Most sessions will be taught using Express, but attendees on any platform can still benefit.
+
+Q: What is the dress code?
+A: Business casual for sessions, meals, and general attendance. Social events may have optional themed dress codes announced closer to the conference. Evenings can be cool — pack a jacket!
+
+Q: What is the Rent Manager Core Bootcamp?
+A: A 7-hour pre-conference crash course on Monday covering Rent Manager fundamentals: chart of accounts, properties, tenants, receivables, payables, and the full tenant life cycle. Great for new users or those who want a refresher.
+
+Q: What is the Rent Manager Administrator Bootcamp?
+A: A 7-hour Monday session for leaders and admins focused on team oversight, daily workflows, security, and making Rent Manager more efficient for staff.
+
+Q: Can I get one-on-one support at RMUC?
+A: Yes! Product Support Specialists will be on-site throughout the conference. No appointment needed — unless you have the VIP Pass, which guarantees a slot.
+
+Q: Can I get Rent Manager Certified at RMUC?
+A: Yes! Certification tests are available Monday through Thursday. These are hands-on, activity-driven assessments in a sample Rent Manager database. Passing earns an official Rent Manager Certification badge.
+
+Q: What should I pack?
+A: Laptop or tablet (plus charger), notebook, pen, and plenty of business cards for networking. A jacket for cooler evenings is also recommended.
+
+Q: How do I plan my schedule?
+A: The RMUC.26 app (available via Cvent closer to the event) lets you browse sessions, register for specific ones, and build your itinerary from your phone or tablet.
+
+Q: Will sessions be recorded?
+A: No. Breakout sessions will not be recorded or shared after the conference. Some handouts may be provided.
+
+--- TRAVEL & ACCOMMODATIONS ---
+Q: Where is the conference venue?
+A: JW Marriott San Antonio Hill Country Resort & Spa | 23808 Resort Parkway, San Antonio, Texas 78261.
+
+Q: Is there a special hotel rate for RMUC attendees?
+A: Yes, a conference room block rate will be available. Check conference.rentmanager.com/venue for details when the room block opens.
+
+--- SPONSORING ---
+Q: How do I sign up to sponsor RMUC.26?
+A: Fill out the sponsorship interest form at conference.rentmanager.com/sponsorship-registration/
+
+Q: What is the sponsor cancellation policy?
+A: Sponsorship cancellations must be received by July 21st, 2026 (90 days before the event) for a refund. No refunds if marketing activities have already been executed.
+
+Q: Who can I contact for more help?
+A: Email the RMUC team at conference@rentmanager.com
+"""

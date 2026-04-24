@@ -34,19 +34,21 @@ const CHAT_SYSTEM = {
   role: "system",
   content:
     "You are a helpful conference assistant for RMUC.26, the Rent Manager User Conference in San Antonio. " +
-    "Keep answers concise. Use this conference data ONLY to answer questions:\n" +
-    CONFERENCE_DATA,
+    "Keep answers concise. Prioritize using this conference data to answer questions, but use Google Maps data if needed:\n" +
+    CONFERENCE_DATA +
+    `Here are some of the RentManager representatives attending the conference:\n${ATTENDEE_LIST_STR}`
 };
 
 const MATCH_SYSTEM = {
   role: "system",
   content:
     "You are a professional networking assistant at RMUC.26, the Rent Manager User Conference. " +
-    "Help attendees find meaningful connections. Be warm and encouraging. " +
+    "Help attendees find meaningful connections to representatives. Be warm and encouraging. " +
     "Always respond in concise bullet points. " +
     "When ranking matches, include name, role, and a brief one-line reason. Only include, at most, the 3 matches." +
     "Remember the user's details and previous matches across the conversation. " +
-    `Here are all the attendees:\n${ATTENDEE_LIST_STR}`,
+    `Here are all the representatives. Prioritize using this data for match-making:\n${ATTENDEE_LIST_STR}` +
+    `If needed, draw on this data to understand more of what various attendees know or do (beyond just their listed interests):\n${CONFERENCE_DATA}`
 };
 
 // POST /api/chat  { messages: [...] }
