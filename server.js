@@ -11,7 +11,7 @@ dotenv.config();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "docs")));
 app.use(cors({ origin: "https://corncob567.github.io" }));
 
 const client = new Groq({ apiKey: process.env.GROQ_KEY });
