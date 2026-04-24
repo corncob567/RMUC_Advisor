@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RMUC Advisor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="./assets/rmuc-house-logo.png" type="image/png" />
+</head>
+<body>
+<div class="app">
+
+ <!-- Header -->
+<header>
+  <a href="#" class="header-logo">
+    <img src="/assets/rmuc-house-logo.png" alt="RMUC" />
+    <span class="logo-text">RMUC<span>.26</span></span>
+  </a>
+  <nav>
+    <a href="https://conference.rentmanager.com/experience/">About</a>
+    <a href="https://conference.rentmanager.com/full-agenda/">Agenda</a>
+    <a href="https://conference.rentmanager.com/sponsors/">Sponsors</a>
+    <a href="https://conference.rentmanager.com/venue/">Venue</a>
+    <a href="https://conference.rentmanager.com/pricing/">Pricing</a>
+    <a href="https://portal.conference.rentmanager.com/portal/Register.aspx" class="nav-register">Register Now</a>
+  </nav>
+</header>
+ 
+<!-- Hero -->
+<section class="hero"></section>
+ 
+<!-- Ticker -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>October 19–22, 2026</span>
+    <span>San Antonio, TX</span>
+    <span>JW Marriott Hill Country Resort &amp; Spa</span>
+    <span>1,000+ Attendees</span>
+    <span>4 Days of Learning</span>
+    <span>#RMUC26</span>
+    <span>October 19–22, 2026</span>
+    <span>San Antonio, TX</span>
+    <span>JW Marriott Hill Country Resort &amp; Spa</span>
+    <span>1,000+ Attendees</span>
+    <span>4 Days of Learning</span>
+    <span>#RMUC26</span>
+  </div>
+</div>
+ 
+<!-- Main -->
+<main>
+ 
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="chat">💬 Ask Advisor</button>
+    <button class="tab-btn"        data-tab="match">🤝 Find a Match</button>
+  </div>
+ 
+  <!-- ── Tab 1: Chat ── -->
+  <div class="tab-panel active" id="tab-chat">
+    <div class="chat-wrap">
+      <div class="chat-header">
+        <div class="chat-header-dot"></div>
+        RMUC.26 AI Advisor — Online
+      </div>
+      <div class="chat-messages" id="chat-messages">
+        <div class="empty-state" id="chat-empty">
+          <p>Ask me anything about sessions, schedules, speakers, or the venue!</p>
+        </div>
+      </div>
+      <div class="chips" id="chat-chips">
+        <span class="chip" data-q="Where is the keynote?">Where is the keynote?</span>
+        <span class="chip" data-q="What sessions are on Tuesday?">Tuesday sessions</span>
+        <span class="chip" data-q="What is the conference venue?">Conference venue</span>
+        <span class="chip" data-q="How do I get to the JW Marriott?">Getting there</span>
+      </div>
+      <div class="chat-input-area">
+        <input id="chat-input" type="text" placeholder="Ex: Where is the keynote?" />
+        <button class="send-btn" id="chat-send">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- ── Tab 2: Match ── -->
+  <div class="tab-panel" id="tab-match">
+ 
+    <div class="match-form" id="match-form">
+      <h3>🤝 Attendee Matching</h3>
+      <p style="font-size:0.88rem; color:var(--rm-gray); margin-bottom:1.25rem;">
+        Tell RMUC Advisor about yourself and it will find your best matches from the attendee list!
+      </p>
+      <div class="form-grid">
+        <div class="form-group full">
+          <label for="match-interests">Your interests</label>
+          <input id="match-interests" type="text" placeholder="Ex: Orion, Scripting, Metered Utilities" />
+        </div>
+        <div class="form-group full">
+          <label for="match-goal">Main goal at RMUC.26</label>
+          <select id="match-goal">
+            <option>Learning from others</option>
+            <option>General networking</option>
+            <option>Find collaboration partners</option>
+            <option>Exploring business opportunities</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-warn" id="match-warn">Please enter your interests so we can find your matches.</div>
+      <button class="btn-primary" id="match-go">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        Find My Matches
+      </button>
+    </div>
+ 
+    <div class="match-results" id="match-results">
+      <div class="match-results-header">
+        <div class="chat-header-dot"></div>
+        Your Matches
+      </div>
+      <div class="match-msgs" id="match-messages"></div>
+      <div class="match-input-area">
+        <input id="match-input" type="text" placeholder="Ask a follow-up about your matches..." />
+        <button class="send-btn" id="match-send">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+ 
+  </div>
+</main>
+ 
+<footer>
+  <p>RMUC.26 AI Advisor &nbsp;|&nbsp; <a href="https://conference.rentmanager.com">conference.rentmanager.com</a> &nbsp;|&nbsp; #RMUC26</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

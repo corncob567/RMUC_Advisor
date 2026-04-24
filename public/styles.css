@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RMUC.26 Advisor</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-  <style>
-    /* ── Variables ── */
-    :root {
+:root {
       --rm-navy:    #1a2b4a;
       --rm-blue:    #0e6eb8;
       --rm-sky:     #3aabdb;
@@ -17,15 +8,15 @@
       --rm-gray:    #6b7a8d;
       --rm-border:  #dde4ed;
       --rm-dark:    #0d1b30;
-      --chat-user:  #e8f4fb;
+      --chat-user:  #0e6eb8;
       --chat-ai:    #ffffff;
       --rm-pink:    #9f1f65;
       --radius:     10px;
       --shadow:     0 4px 24px rgba(14,110,184,0.10);
     }
-
+ 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
     body {
       font-family: 'Open Sans', sans-serif;
       background: var(--rm-light);
@@ -34,7 +25,7 @@
       display: flex;
       flex-direction: column;
     }
-
+ 
     /* ── Header ── */
     header {
       background: var(--rm-navy);
@@ -48,29 +39,19 @@
       z-index: 100;
       box-shadow: 0 2px 12px rgba(0,0,0,0.18);
     }
-
+ 
     .header-logo {
       display: flex;
       align-items: center;
       gap: 12px;
       text-decoration: none;
     }
-
-    .logo-mark {
-      width: 38px;
+ 
+    .header-logo img {
       height: 38px;
-      background: var(--rm-blue);
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 900;
-      font-size: 15px;
-      color: white;
-      letter-spacing: -1px;
+      width: auto;
     }
-
+ 
     .logo-text {
       font-family: 'Montserrat', sans-serif;
       font-weight: 800;
@@ -78,11 +59,11 @@
       color: var(--rm-white);
       letter-spacing: 0.5px;
     }
-
+ 
     .logo-text span { color: var(--rm-sky); }
-
+ 
     nav { display: flex; gap: 1.5rem; align-items: center; }
-
+ 
     nav a {
       color: rgba(255,255,255,0.82);
       text-decoration: none;
@@ -93,9 +74,9 @@
       text-transform: uppercase;
       transition: color 0.2s;
     }
-
+ 
     nav a:hover { color: var(--rm-sky); }
-
+ 
     .nav-register {
       background: var(--rm-gold);
       color: var(--rm-dark) !important;
@@ -104,9 +85,9 @@
       font-weight: 700 !important;
       transition: background 0.2s, transform 0.15s !important;
     }
-
+ 
     .nav-register:hover { background: #f5b030 !important; transform: translateY(-1px); }
-
+ 
     /* ── Ticker ── */
     .ticker {
       background: var(--rm-pink);
@@ -120,43 +101,30 @@
       overflow: hidden;
       white-space: nowrap;
     }
-
+ 
     .ticker-inner {
       display: inline-block;
       animation: ticker 28s linear infinite;
     }
-
+ 
     .ticker-inner span { margin: 0 2rem; opacity: 0.9; }
     .ticker-inner span::before { content: "•"; margin-right: 2rem; color: var(--rm-sky); }
-
+ 
     @keyframes ticker {
       0%   { transform: translateX(0); }
       100% { transform: translateX(-50%); }
     }
-
+ 
     /* ── Hero ── */
     .hero {
       background-image: url('assets/rmuc-web-bg.png');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      color: white;
-      text-align: center;
       height: 500px;
       position: relative;
-      overflow: hidden;
     }
-
-    .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(ellipse at 20% 50%, rgba(58,171,219,0.12) 0%, transparent 60%),
-        radial-gradient(ellipse at 80% 30%, rgba(14,110,184,0.15) 0%, transparent 55%);
-      pointer-events: none;
-    }
-
+ 
     /* ── Main layout ── */
     main {
       flex: 1;
@@ -165,7 +133,7 @@
       margin: 0 auto;
       padding: 2rem 1.5rem 3rem;
     }
-
+ 
     /* ── Tabs ── */
     .tabs {
       display: flex;
@@ -173,7 +141,7 @@
       border-bottom: 2px solid var(--rm-border);
       margin-bottom: 1.75rem;
     }
-
+ 
     .tab-btn {
       font-family: 'Montserrat', sans-serif;
       font-size: 0.85rem;
@@ -189,18 +157,14 @@
       margin-bottom: -2px;
       transition: color 0.2s, border-color 0.2s;
     }
-
+ 
     .tab-btn:hover { color: var(--rm-blue); }
-
-    .tab-btn.active {
-      color: var(--rm-blue);
-      border-bottom-color: var(--rm-blue);
-    }
-
-    .tab-panel { display: none; }
-    .tab-panel.active { display: flex; flex-direction: column; gap: 0; }
-
-    /* ── Chat area ── */
+    .tab-btn.active { color: var(--rm-blue); border-bottom-color: var(--rm-blue); }
+ 
+    .tab-panel { display: none; flex-direction: column; gap: 0; }
+    .tab-panel.active { display: flex; }
+ 
+    /* ── Shared chat chrome ── */
     .chat-wrap {
       background: var(--rm-white);
       border: 1px solid var(--rm-border);
@@ -211,7 +175,7 @@
       height: 520px;
       overflow: hidden;
     }
-
+ 
     .chat-header {
       background: var(--rm-navy);
       color: white;
@@ -223,8 +187,9 @@
       display: flex;
       align-items: center;
       gap: 10px;
+      flex-shrink: 0;
     }
-
+ 
     .chat-header-dot {
       width: 8px; height: 8px;
       background: #4ade80;
@@ -232,12 +197,13 @@
       box-shadow: 0 0 6px #4ade80;
       animation: pulse 2s infinite;
     }
-
+ 
     @keyframes pulse {
       0%, 100% { opacity: 1; }
       50% { opacity: 0.4; }
     }
-
+ 
+    /* ── Messages ── */
     .chat-messages {
       flex: 1;
       overflow-y: auto;
@@ -247,20 +213,19 @@
       gap: 1rem;
       scroll-behavior: smooth;
     }
-
+ 
     .chat-messages::-webkit-scrollbar { width: 5px; }
-    .chat-messages::-webkit-scrollbar-track { background: transparent; }
     .chat-messages::-webkit-scrollbar-thumb { background: var(--rm-border); border-radius: 10px; }
-
-    .msg { display: flex; gap: 10px; align-items: flex-start; animation: fadeUp 0.3s ease; }
-
+ 
+    .msg { display: flex; gap: 10px; align-items: flex-start; animation: fadeUp 0.25s ease; }
+ 
     @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(8px); }
+      from { opacity: 0; transform: translateY(6px); }
       to   { opacity: 1; transform: translateY(0); }
     }
-
+ 
     .msg.user { flex-direction: row-reverse; }
-
+ 
     .msg-avatar {
       width: 32px; height: 32px;
       border-radius: 50%;
@@ -270,35 +235,81 @@
       font-weight: 800;
       flex-shrink: 0;
     }
-
+ 
     .msg.assistant .msg-avatar { background: var(--rm-blue); color: white; }
-    .msg.user .msg-avatar { background: var(--rm-navy); color: white; }
-
+    .msg.user      .msg-avatar { background: var(--rm-navy); color: white; }
+ 
     .msg-bubble {
       max-width: 75%;
       padding: 10px 14px;
       border-radius: 12px;
       font-size: 0.9rem;
       line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
     }
-
+ 
     .msg.assistant .msg-bubble {
       background: var(--chat-ai);
       border: 1px solid var(--rm-border);
       border-top-left-radius: 3px;
       color: var(--rm-navy);
     }
-
+ 
     .msg.user .msg-bubble {
-      background: var(--rm-blue);
+      background: var(--chat-user);
       color: white;
       border-top-right-radius: 3px;
     }
-
-    .msg-bubble ul { padding-left: 1.2rem; margin-top: 4px; }
-    .msg-bubble li { margin-bottom: 4px; }
-    .msg-bubble strong { font-weight: 600; }
-
+ 
+    /* ── Typing indicator ── */
+    .typing { display: flex; gap: 5px; align-items: center; padding: 6px 2px; }
+    .typing span {
+      width: 7px; height: 7px;
+      background: var(--rm-gray);
+      border-radius: 50%;
+      animation: bounce 1.2s infinite;
+    }
+    .typing span:nth-child(2) { animation-delay: 0.2s; }
+    .typing span:nth-child(3) { animation-delay: 0.4s; }
+ 
+    @keyframes bounce {
+      0%, 80%, 100% { transform: translateY(0); }
+      40%            { transform: translateY(-6px); }
+    }
+ 
+    /* ── Empty state ── */
+    .empty-state {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: var(--rm-gray);
+      text-align: center;
+    }
+ 
+    .empty-state p { font-size: 0.88rem; max-width: 280px; line-height: 1.5; }
+ 
+    /* ── Quick chips ── */
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 1.25rem 1rem; }
+ 
+    .chip {
+      background: var(--rm-light);
+      border: 1px solid var(--rm-border);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 0.8rem;
+      color: var(--rm-blue);
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.15s, border-color 0.15s;
+      font-family: 'Open Sans', sans-serif;
+    }
+ 
+    .chip:hover { background: #dbeeff; border-color: var(--rm-blue); }
+ 
     /* ── Chat input ── */
     .chat-input-area {
       border-top: 1px solid var(--rm-border);
@@ -306,8 +317,9 @@
       display: flex;
       gap: 10px;
       background: var(--rm-white);
+      flex-shrink: 0;
     }
-
+ 
     .chat-input-area input {
       flex: 1;
       border: 1px solid var(--rm-border);
@@ -319,14 +331,14 @@
       outline: none;
       transition: border-color 0.2s, box-shadow 0.2s;
     }
-
+ 
     .chat-input-area input:focus {
       border-color: var(--rm-blue);
       box-shadow: 0 0 0 3px rgba(14,110,184,0.12);
     }
-
+ 
     .chat-input-area input::placeholder { color: var(--rm-gray); }
-
+ 
     .send-btn {
       background: var(--rm-blue);
       color: white;
@@ -338,10 +350,11 @@
       transition: background 0.2s, transform 0.15s;
       flex-shrink: 0;
     }
-
+ 
     .send-btn:hover { background: #0a5a9e; transform: scale(1.05); }
+    .send-btn:disabled { background: var(--rm-gray); cursor: not-allowed; transform: none; }
     .send-btn svg { width: 18px; height: 18px; }
-
+ 
     /* ── Match form ── */
     .match-form {
       background: var(--rm-white);
@@ -350,7 +363,7 @@
       box-shadow: var(--shadow);
       padding: 1.75rem;
     }
-
+ 
     .match-form h3 {
       font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
@@ -360,12 +373,11 @@
       padding-bottom: 0.75rem;
       border-bottom: 2px solid var(--rm-border);
     }
-
-    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
-
+ 
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem; }
     .form-group { display: flex; flex-direction: column; gap: 6px; }
     .form-group.full { grid-column: 1 / -1; }
-
+ 
     label {
       font-family: 'Montserrat', sans-serif;
       font-size: 0.75rem;
@@ -374,7 +386,7 @@
       text-transform: uppercase;
       color: var(--rm-gray);
     }
-
+ 
     input[type="text"], select {
       border: 1px solid var(--rm-border);
       border-radius: 6px;
@@ -386,12 +398,12 @@
       transition: border-color 0.2s, box-shadow 0.2s;
       background: white;
     }
-
+ 
     input[type="text"]:focus, select:focus {
       border-color: var(--rm-blue);
       box-shadow: 0 0 0 3px rgba(14,110,184,0.12);
     }
-
+ 
     .btn-primary {
       background: var(--rm-blue);
       color: white;
@@ -407,23 +419,36 @@
       transition: background 0.2s, transform 0.15s;
       display: flex; align-items: center; gap: 8px;
     }
-
+ 
     .btn-primary:hover { background: #0a5a9e; transform: translateY(-1px); }
     .btn-primary:disabled { background: var(--rm-gray); cursor: not-allowed; transform: none; }
-
-    /* ── Match results ── */
+ 
+    .form-warn {
+      font-size: 0.82rem;
+      color: #b45300;
+      background: #fff8e6;
+      border: 1px solid var(--rm-gold);
+      border-radius: 6px;
+      padding: 8px 12px;
+      display: none;
+      margin-top: 0.5rem;
+    }
+ 
+    /* ── Match results chat ── */
     .match-results {
       background: var(--rm-white);
       border: 1px solid var(--rm-border);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
-      display: flex;
+      display: none;
       flex-direction: column;
       height: 420px;
       overflow: hidden;
       margin-top: 1rem;
     }
-
+ 
+    .match-results.visible { display: flex; }
+ 
     .match-results-header {
       background: var(--rm-navy);
       color: white;
@@ -434,8 +459,9 @@
       display: flex;
       align-items: center;
       gap: 10px;
+      flex-shrink: 0;
     }
-
+ 
     .match-msgs {
       flex: 1;
       overflow-y: auto;
@@ -445,18 +471,19 @@
       gap: 1rem;
       scroll-behavior: smooth;
     }
-
+ 
     .match-msgs::-webkit-scrollbar { width: 5px; }
     .match-msgs::-webkit-scrollbar-thumb { background: var(--rm-border); border-radius: 10px; }
-
+ 
     .match-input-area {
       border-top: 1px solid var(--rm-border);
       padding: 12px 16px;
       display: flex;
       gap: 10px;
       background: var(--rm-white);
+      flex-shrink: 0;
     }
-
+ 
     .match-input-area input {
       flex: 1;
       border: 1px solid var(--rm-border);
@@ -468,61 +495,12 @@
       outline: none;
       transition: border-color 0.2s, box-shadow 0.2s;
     }
-
+ 
     .match-input-area input:focus {
       border-color: var(--rm-blue);
       box-shadow: 0 0 0 3px rgba(14,110,184,0.12);
     }
-
-    /* ── Typing indicator ── */
-    .typing { display: flex; gap: 5px; align-items: center; padding: 4px 2px; }
-    .typing span {
-      width: 7px; height: 7px;
-      background: var(--rm-gray);
-      border-radius: 50%;
-      animation: bounce 1.2s infinite;
-    }
-    .typing span:nth-child(2) { animation-delay: 0.2s; }
-    .typing span:nth-child(3) { animation-delay: 0.4s; }
-
-    @keyframes bounce {
-      0%, 80%, 100% { transform: translateY(0); }
-      40%            { transform: translateY(-6px); }
-    }
-
-    /* ── Empty state ── */
-    .empty-state {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      color: var(--rm-gray);
-      padding: 2rem;
-      text-align: center;
-    }
-
-    .empty-state svg { opacity: 0.3; }
-    .empty-state p { font-size: 0.9rem; max-width: 300px; line-height: 1.5; }
-
-    /* ── Chips ── */
-    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 1rem; }
-
-    .chip {
-      background: var(--rm-light);
-      border: 1px solid var(--rm-border);
-      border-radius: 20px;
-      padding: 5px 14px;
-      font-size: 0.8rem;
-      color: var(--rm-blue);
-      cursor: pointer;
-      font-weight: 600;
-      transition: background 0.15s, border-color 0.15s;
-    }
-
-    .chip:hover { background: #dbeeff; border-color: var(--rm-blue); }
-
+ 
     /* ── Footer ── */
     footer {
       background: var(--rm-dark);
@@ -533,79 +511,10 @@
       font-family: 'Montserrat', sans-serif;
       letter-spacing: 0.5px;
     }
-
+ 
     footer a { color: var(--rm-sky); text-decoration: none; }
-
-    /* ── Warning ── */
-    .api-warning {
-      background: #fff8e6;
-      border: 1px solid var(--rm-gold);
-      border-radius: 6px;
-      padding: 10px 14px;
-      font-size: 0.82rem;
-      color: #7a5500;
-      margin-bottom: 1rem;
-      display: none;
-    }
-
+ 
     @media (max-width: 640px) {
       nav { display: none; }
       .form-grid { grid-template-columns: 1fr; }
     }
-  </style>
-</head>
-<body>
-
-<!-- Header -->
-<header>
-  <a href="#" class="header-logo">
-    <div class="logo-mark">RM</div>
-    <span class="logo-text">RMUC<span>.26</span></span>
-  </a>
-  <nav>
-    <a href="https://conference.rentmanager.com/experience/">About</a>
-    <a href="https://conference.rentmanager.com/full-agenda/">Agenda</a>
-    <a href="https://conference.rentmanager.com/sponsors/">Sponsors</a>
-    <a href="https://conference.rentmanager.com/venue/">Venue</a>
-    <a href="https://conference.rentmanager.com/pricing/">Pricing</a>
-    <a href="https://portal.conference.rentmanager.com/portal/Register.aspx" class="nav-register">Register Now</a>
-  </nav>
-</header>
-
-<!-- Hero -->
-<section class="hero">
-</section>
-
-<!-- Ticker -->
-<div class="ticker">
-  <div class="ticker-inner" id="tickerInner">
-    <span>October 19–22, 2026</span>
-    <span>San Antonio, TX</span>
-    <span>JW Marriott Hill Country Resort & Spa</span>
-    <span>1,000+ Attendees</span>
-    <span>4 Days of Learning</span>
-    <span>#RMUC26</span>
-    <span>October 19–22, 2026</span>
-    <span>San Antonio, TX</span>
-    <span>JW Marriott Hill Country Resort & Spa</span>
-    <span>1,000+ Attendees</span>
-    <span>4 Days of Learning</span>
-    <span>#RMUC26</span>
-  </div>
-</div>
-
-<!-- Main -->
-<main>
-  <iframe
-    src="https://rmuc-advisor.streamlit.app/?embed=true"
-    width="100%"
-    height="800"
-    style="border:none;"
-    ></iframe>
-</main>
-
-<footer>
-  <p>RMUC.26 AI Advisor &nbsp;|&nbsp; <a href="https://conference.rentmanager.com">conference.rentmanager.com</a> &nbsp;|&nbsp; #RMUC26</p>
-</footer>
-</body>
-</html>
