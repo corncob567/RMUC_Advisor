@@ -56,7 +56,7 @@ app.post("/api/chat", async (req, res) => {
   try {
     const { messages } = req.body;
     const completion = await client.chat.completions.create({
-      model: "llama-3.3-70b-versatile",
+      model: "llama-3.1-8b-instant",
       messages: [CHAT_SYSTEM, ...messages],
     });
     res.json({ reply: completion.choices[0].message.content });
@@ -71,7 +71,7 @@ app.post("/api/match", async (req, res) => {
   try {
     const { messages } = req.body;
     const completion = await client.chat.completions.create({
-      model: "llama-3.3-70b-versatile",
+      model: "llama-3.1-8b-instant",
       messages: [MATCH_SYSTEM, ...messages],
     });
     res.json({ reply: completion.choices[0].message.content });
