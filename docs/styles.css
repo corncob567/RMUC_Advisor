@@ -1,8 +1,8 @@
 :root {
-      --rm-navy:    #1a2b4a;
+      --rm-navy:    #004f67;
       --rm-blue:    #0e6eb8;
       --rm-sky:     #3aabdb;
-      --rm-gold:    #e8a020;
+      --rm-gold:    #5dfef0;
       --rm-light:   #f4f8fc;
       --rm-white:   #ffffff;
       --rm-gray:    #6b7a8d;
@@ -24,6 +24,19 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+    }
+
+    .msg-logo{
+      width: 24px;
+      height: 24px;
+      transform: translateX(2px);
+    }
+
+    .msg-user-icon{
+      width: 24px;
+      height: 24px;
+      font-size: 18px;
+      transform: translate(1px, -2px);
     }
  
     /* ── Header ── */
@@ -236,17 +249,22 @@
       flex-shrink: 0;
     }
  
-    .msg.assistant .msg-avatar { background: var(--rm-blue); color: white; }
-    .msg.user      .msg-avatar { background: var(--rm-navy); color: white; }
+    .msg.assistant .msg-avatar { background: var(--rm-navy); color: white; }
+    .msg.user      .msg-avatar { background: var(--rm-sky); color: white; }
  
     .msg-bubble {
       max-width: 75%;
       padding: 10px 14px;
+      padding-left: 0;
       border-radius: 12px;
       font-size: 0.9rem;
       line-height: 1.6;
       white-space: pre-wrap;
       word-break: break-word;
+    }
+
+    .msg-content {
+      padding-left: 10px;
     }
  
     .msg.assistant .msg-bubble {

@@ -1,130 +1,304 @@
 CONFERENCE_DATA = """
-CONF: RMUC.26 | Oct 19–22, 2026 | JW Marriott SA Hill Country Resort & Spa, 23808 Resort Pkwy, San Antonio TX 78261 | Theme: "Where Innovation Flows" | #RMUC26
-WiFi: RMUC2026/InnovationFlows26 | App: Cvent (pre-event) | Email: conference@rentmanager.com | Sponsorship: conference.rentmanager.com/sponsorship-registration/
-Notes: Sessions not recorded; handouts may vary. All NARPM Certified. Dress: business casual; themed optional for socials. Bring: laptop+charger, notebook, business cards, jacket. Cert testing Mon–Thu (hands-on sample DB, earns badge). RM Express recommended not required. Product Support Specialists on-site (walk-in; VIP gets guaranteed slot).
-
-=== RECURRING DAILY ===
-Breakfast 07:30–08:30 | Lunch 11:30–12:45 | Both at Grand Oaks Ballroom K-S, FREE, themed seating by shared interests [Tue–Thu]
-Registration 07:30–17:15 [Mon–Wed], 07:30–11:15 [Thu]
-Innovation Hall + RM Experience Open 08:30–17:15 [Wed], 08:30–11:15 [Thu]
-Mid-morning break 09:45–10:15 (drinks) | Afternoon break 14:00–14:30 (snacks+drinks)
-
-=== SCHEDULE ===
-
-MON 10/19
-09:30–16:30 RM Core Bootcamp (James Whitfield, Beginner) — chart of accounts, charge types, properties, units, tenants, UDFs, receivables, payables, tenant life cycle
-09:30–16:30 Administrator Bootcamp (Sandra Okafor, Intermediate) — daily workflows, team oversight, security, efficiency
-12:00–13:15 Bootcamp Lunch (bootcamp only)
-19:30–21:30 [SOCIAL] Dia de los Muertos Reception — River Bend Pavilion & Lawn; mariachi, drinks, networking; FREE
-
-TUE 10/20
-08:45–10:15 Keynote — Dave Hegemann (LCS President & CEO), Grand Ballroom; new features, demos, next conf location reveal
-10:15–11:30 Innovation Hall Grand Opening — Nelson Wolff Exhibit Ballroom; 75+ PropTech sponsors, raffle tickets; FREE
-18:00–22:00 [SOCIAL] Center Stage at the Aztec — Aztec Theatre; dinner, open bar, live music/dancing; $150/ticket | Sponsors: AmRent, AvidXchange, LeaseTrack, Rentable, Zego; after-party options on Riverwalk
-
-WED 10/21
-15:45–17:15 [SOCIAL] Let's Taco 'Bout It Power Hour — Innovation Hall; taco bar, drinks, demos, merch; FREE | Sponsor: AvidXchange
-
-THU 10/22
-11:30–12:15 [SOCIAL] In the Hot Seat Closing — Grand Oaks Ballroom G-J; CEO Hegemann + CXO Griesinger eat spicy wings, hosted by Joe Easton (Dir. Partnerships); prize raffle; FREE
-
-=== BREAKOUT SESSIONS (Tue–Thu) ===
-
+CONFERENCE: RMUC.26 — Rent Manager User Conference
+DATES: October 19–22, 2026
+LOCATION: San Antonio, Texas
+THEME: "Where Innovation Flows"
+ 
+=== MONDAY, OCTOBER 19 (Pre-Conference Day) ===
+- Registration Open: 7:30 AM – 5:15 PM
+- Rent Manager Core Bootcamp: 9:30 AM – 4:30 PM | Room: TBD | Presenter: James Whitfield | Beginner | A 7-hour crash course covering chart of accounts, charge types, properties, units, tenants, user-defined fields, receivables, payables, and the tenant life cycle.
+- Administrator Bootcamp: 9:30 AM – 4:30 PM | Room: TBD | Presenter: Sandra Okafor | Intermediate | A 7-hour event covering daily management workflows, team oversight, security, and making Rent Manager more efficient for staff.
+- Bootcamp Lunch: 12:00 PM – 1:15 PM (Bootcamp attendees only)
+- Dia de los Muertos Opening Reception: 7:30 PM – 9:30 PM (Evening social event, all attendees welcome)
+ 
+=== TUESDAY, OCTOBER 20 ===
+- Breakfast: 7:30 AM – 8:30 AM
+- Registration Open: 7:30 AM – 5:15 PM
+- Keynote Address featuring Dave Hegemann (LCS President & CEO): 8:45 AM – 10:15 AM | Grand Ballroom | New feature announcements, product demos, and reveal of next year's conference location.
+- Innovation Hall Grand Opening (75+ PropTech sponsors): 10:15 AM – 11:30 AM
+- Lunch: 11:30 AM – 12:45 PM
+- Break (Snacks & Drinks): 2:00 PM – 2:30 PM
+- Center Stage at the Aztec Premier Social Event: 6:00 PM – 10:00 PM | Aztec Theatre | Dinner, open bar, live music. Sponsored by AmRent, AvidXchange, LeaseTrack, Rentable, Zego.
+ 
+=== WEDNESDAY, OCTOBER 21 (Main Session Day) ===
+- Breakfast: 7:30 AM – 8:30 AM
+- Innovation Hall & Rent Manager Experience Open: 8:30 AM – 5:15 PM
+- Break (Drinks Only): 9:45 AM – 10:15 AM
+- Lunch: 11:30 AM – 12:45 PM
+- Break (Snacks & Drinks): 2:00 PM – 2:30 PM
+- Let's Taco Bout It Power Hour (Innovation Hall): 3:45 PM – 5:15 PM | Networking with sponsors and taco treats. Sponsored by AvidXchange.
+ 
+=== THURSDAY, OCTOBER 22 (Final Day) ===
+- Breakfast: 7:30 AM – 8:30 AM
+- Registration Open: 7:30 AM – 11:15 AM
+- Innovation Hall & Rent Manager Experience Open: 8:30 AM – 11:15 AM
+- In the Hot Seat Closing Ceremony: 11:30 AM – 12:15 PM | Features CEO Dave Hegemann and CXO Chris Griesinger answering questions while eating spicy wings. Prize raffle.
+ 
+=== BREAKOUT SESSIONS (Tuesday–Thursday) ===
+ 
 BEGINNER [101s]
-- Service Manager | Maria Delgado | Create/resolve issues, checklists, link maintenance to invoices, recurring issues
-- Scripting | Tom Harrington | Intro to command-based scripting; no experience needed
-- Bank Reconciliations | Linda Fujimoto | Manual/electronic reconciliations, clearing transactions, bank fees, discrepancy troubleshooting
-- Bookkeeping | Kevin Ashworth | Foundational bookkeeping in RM
-- Reporting | Priya Nair | Report list navigation, export, scheduled reports, portfolio health reports
-- Commercial Management | Daniel Reyes | CAM charges, net-leases, pro rata shares
+- Service Manager | Megan Gregory | Create/resolve issues, checklists, link maintenance to invoices, recurring issues
+- Scripting | Adam Noyes | Intro to command-based scripting; no experience needed
+- Bank Reconciliations | Matt Klopfenstein | Manual/electronic reconciliations, clearing transactions, bank fees, discrepancy troubleshooting
+- Bookkeeping | Lauren VanNess | Foundational bookkeeping in RM
+- Reporting | Brian Mueller | Report list navigation, export, scheduled reports, portfolio health reports
+- Commercial Management | Ronnie Ehemann | CAM charges, net-leases, pro rata shares
 
 BEGINNER [Panels]
-- AmRent | Applicant screening, income verification, leasing decisions [Sponsor: AmRent]
-- Cyber Security | Data protection, evolving threats, incident response
-- AvidXchange | AP automation, invoice management, vendor relationships [Sponsor: AvidXchange]
+- AmRent | Chris Griesinger | Applicant screening, income verification, leasing decisions
+- Cyber Security | Patrick O'Hearn | Data protection, evolving threats, incident response
+- AvidXchange | Julie Kuhn | AP automation, invoice management, vendor relationships
 
 INTERMEDIATE [Tips & Tricks]
-- rmAppSuite Pro | Ashley Monroe | Hidden features in mobile app for leasing/managers/maintenance
-- RM Communication | Jordan Stiles | Email/text/phone centralization, rmVoIP, phone broadcast, Orion AI comms
-- Receivables | Carlos Mendoza | Charge entries, payment processing, A/R accuracy
-- Payables | Rachel Kim | Smart Bills, eChecks, approval workflows, expense management
-- Metered Utilities | Brian Thornton | RUBS configs, utility cost recovery, exception alerts (gas/water/sewer)
-- Pro Scripting | Natalie Owens | Dynamic functions, commenting strategies, unconventional script locations
-- 2025-26 Features (ICYMI) | Marcus Webb | Top features/improvements from last 18 months
-- User Customizations | Diane Park | Screens, permissions, layouts by job role
-- Orion AI | Sam Ellison | Call summaries, report analysis, integrated help, upcoming AI tools, staff productivity
+- rmAppSuite Pro | Dan Browne | Hidden features in mobile app for leasing/managers/maintenance
+- RM Communication | Lindsey Urs | Email/text/phone centralization, rmVoIP, phone broadcast, Orion AI comms
+- Receivables | Erin Hooper | Charge entries, payment processing, A/R accuracy
+- Payables | Julie Kuhn | Smart Bills, eChecks, approval workflows, expense management
+- Metered Utilities | Jon Erdman | RUBS configs, utility cost recovery, exception alerts (gas/water/sewer)
+- Pro Scripting | Chuck Stevens | Dynamic functions, commenting strategies, unconventional script locations
+- 2025-26 Features (ICYMI) | Tony Little | Top features/improvements from last 18 months
+- User Customizations | Saritha Kota | Screens, permissions, layouts by job role
+- Orion AI | Lori Weaver | Call summaries, report analysis, integrated help, upcoming AI tools, staff productivity
 
 INTERMEDIATE [Panels]
-- Leasing & Marketing | Lead gen, digital marketing, tours, lease conversion
-- Maintenance | Work orders, preventive maintenance, emergency handling, team efficiency
-- Operations | CRM, tenant communication, workflow optimization
-- API | RM open API: automation, third-party integrations, custom solutions
-- Industry Insights: Single-Family | Trends and operational strategies
-- Industry Insights: Multi-Family | Apartment communities at scale, resident experience, leasing
-- Industry Insights: Commercial | Lease structuring, tenant relations, maintenance, financial oversight
-- Industry Insights: Manufactured Housing | Lot leasing, resident relations, utility mgmt, community ops
+- Leasing & Marketing | Chris Griesinger | Lead gen, digital marketing, tours, lease conversion
+- Maintenance | Megan Gregory | Work orders, preventive maintenance, emergency handling, team efficiency
+- Operations | Brittany Christerson | CRM, tenant communication, workflow optimization
+- API | Craig Zutavern | RM open API: automation, third-party integrations, custom solutions
+- Industry Insights: Single-Family | Ali Ferryman | Trends and operational strategies
+- Industry Insights: Multi-Family | Dave Hegemann | Apartment communities at scale, resident experience, leasing
+- Industry Insights: Commercial | Ronnie Ehemann | Lease structuring, tenant relations, maintenance, financial oversight
+- Industry Insights: Manufactured Housing | Brittany Christerson | Lot leasing, resident relations, utility mgmt, community ops
 
 ADVANCED [Best Practices]
-- Lease Renewal Automation | Olivia Chambers | Automated notifications, multi-term offers, digital signatures, zero-touch updates
-- Home Asset Management | Greg Thornton | Manufactured housing DB model, Site Classifications, reporting
-- Prospect Management | Vanessa Cruz | Prospect Board, online apps, screening, leasing automation
-- Custom Workflows | Noah Peterson | Workflow templates combining service issues + tasks for onboarding, complaints, accounting close
-- Transitioning to Express | Fiona Blackwell | Change management roadmap, case studies
-- Third-Party Management | Travis Longley | Owner contracts, mgmt fees, reporting automation, monthly processing
-- Move-Out Management | Stephanie Garza | Notices, security deposit refunds, eviction workflows, make-ready
+- Lease Renewal Automation | Ryan Abdon | Automated notifications, multi-term offers, digital signatures, zero-touch updates
+- Home Asset Management | Ali Ferryman | Manufactured housing DB model, Site Classifications, reporting
+- Prospect Management | Chris Griesinger | Prospect Board, online apps, screening, leasing automation
+- Custom Workflows | Joe Easton | Workflow templates combining service issues + tasks for onboarding, complaints, accounting close
+- Transitioning to Express | Ali Ferryman | Change management roadmap, case studies
+- Third-Party Management | Brittany Christerson | Owner contracts, mgmt fees, reporting automation, monthly processing
+- Move-Out Management | Chris Griesinger | Notices, security deposit refunds, eviction workflows, make-ready
 
 ADVANCED [Solutions]
-- Reducing Delinquencies | Michael Reeves | KPI targets, dashboards, auto late fees, cashless payments, proactive comms
-- Reducing Time to Turn | Janet Kowalski | Vacancy cost calc, Make Ready Board, marketing integrations
-- Reducing Churn | Anthony Ruiz | Churn KPIs, first-90-days retention, maintenance feedback, renewal incentives
-- Improving Maintenance Response | Brooke Sullivan | Lifecycle benchmarks/reporting, tech-mapping, scheduling, after-hours
-- Report Discrepancies | Patrick Lim | Identifying/troubleshooting/resolving financial+operational inconsistencies
-- Protecting Financial Data | Cynthia Holt | Permission mgmt, self-audit, monthly accounting close
+- Reducing Delinquencies | Tony Little | KPI targets, dashboards, auto late fees, cashless payments, proactive comms
+- Reducing Time to Turn | Megan Gregory | Vacancy cost calc, Make Ready Board, marketing integrations
+- Reducing Churn | Chris Griesinger | Churn KPIs, first-90-days retention, maintenance feedback, renewal incentives
+- Improving Maintenance Response | Megan Gregory | Lifecycle benchmarks/reporting, tech-mapping, scheduling, after-hours
+- Report Discrepancies | Amy Hart | Identifying/troubleshooting/resolving financial+operational inconsistencies
+- Protecting Financial Data | Patrick O'Hearn | Permission mgmt, self-audit, monthly accounting close
 
 ADVANCED [Panel]
-- Power User Forum | Advanced features, automation strategies, creative solutions
+- Power User Forum | Brian Mueller | Advanced features, automation strategies, creative solutions
 
-=== VIP PASS — $175/person (Sponsor: LeaseTrack) ===
-Dedicated check-in | C-Suite pre-event (drinks+hors d'oeuvres) | Custom VIP bag+lanyard | Priority seating (Keynote+Closing) | VIP Lounge (drinks/snacks) | Complimentary headshot | Guaranteed Product Support appt | 20% off merch
-
+=== SOCIAL EVENTS ===
+ 
+1. Dia de los Muertos Opening Reception
+   - Date: Monday, October 19th
+   - Time: 7:30 PM – 9:30 PM
+   - Location: JW Marriott San Antonio Hill Country Resort and Spa – River Bend Pavilion and Lawn
+   - Cost: FREE (included with conference registration)
+   - Details: Festive Día de los Muertos-themed evening with a Mariachi band, drinks, and networking. Kicks off the conference week.
+ 
+2. Innovation Hall Grand Opening
+   - Date: Tuesday, October 20th
+   - Time: 10:15 AM – 11:30 AM
+   - Location: Nelson Wolff Exhibit Ballroom
+   - Cost: FREE (included with conference registration)
+   - Details: Exclusive first look at 75+ sponsor booths. Connect with Rent Manager staff, explore PropTech solutions, and earn raffle tickets.
+ 
+3. Mealtime Networking (Breakfast & Lunch)
+   - Dates: Tuesday Oct 20 through Thursday Oct 22
+   - Breakfast: 7:30 AM – 8:30 AM | Lunch: 11:30 AM – 12:45 PM
+   - Location: Grand Oaks Ballroom K-S
+   - Cost: FREE (included with conference registration)
+   - Details: Themed sit-down meals arranged to connect attendees with shared interests and professional backgrounds.
+ 
+4. Center Stage at the Aztec — Premier Social Event
+   - Date: Tuesday, October 20th
+   - Time: 6:00 PM – 10:00 PM
+   - Location: The Aztec Theatre, San Antonio (Riverwalk nearby)
+   - Cost: $150 per ticket (purchased separately)
+   - Sponsored by: AmRent, AvidXchange, LeaseTrack, Rentable, Zego
+   - Details: High-energy evening at the historic 100-year-old Aztec Theatre. Includes dinner, open bar, live band, and dancing. After-party options available along the San Antonio Riverwalk. This is the RMUC "must-attend" night event.
+ 
+5. Let's Taco 'Bout It Power Hour
+   - Date: Wednesday, October 21st
+   - Time: 3:45 PM – 5:15 PM
+   - Location: Innovation Hall
+   - Cost: FREE (included with conference registration)
+   - Sponsored by: AvidXchange
+   - Details: Networking fiesta in Innovation Hall with taco bar, drinks, sponsor demos, RMUC merch, and attendee mingling.
+ 
+6. In the Hot Seat Closing Ceremony
+   - Date: Thursday, October 22nd
+   - Time: 11:30 AM – 12:15 PM
+   - Location: Grand Oaks Ballroom G-J
+   - Cost: FREE (included with conference registration)
+   - Details: Hot Ones-inspired spicy wing challenge featuring CEO Dave Hegemann and CXO Chris Griesinger, hosted by Director of Partnerships Joe Easton. Ends with a prize raffle. Officially closes RMUC.26.
+ 
+=== VIP PASS ===
+- Cost: $175 per person (add-on to standard registration)
+- Sponsored by: LeaseTrack
+- Includes:
+  * Dedicated VIP check-in line
+  * Exclusive pre-event with Rent Manager C-Suite (drinks & hors d'oeuvres)
+  * Custom VIP bag and lanyard
+  * Priority seating at Keynote and Closing Ceremony
+  * VIP Lounge access (complimentary drinks, snacks, seating)
+  * Complimentary professional headshot session in Innovation Hall
+  * Guaranteed Product Support appointment (no wait)
+  * 20% off Rent Manager merchandise
+ 
+=== GENERAL INFO ===
+- WiFi Network: RMUC2026 | Password: InnovationFlows26
+- Venue: JW Marriott San Antonio Hill Country Resort & Spa | 23808 Resort Parkway, San Antonio, Texas 78261
+- Conference hashtag: #RMUC26
+- Rent Manager Certification testing available Monday–Thursday
+- All sessions are NARPM Certified
+- Innovation Hall features 75+ PropTech and property management sponsors
+- RMUC.26 app available via Cvent closer to the event for scheduling and session sign-up
+- Sessions will NOT be recorded or shared post-conference; handouts may be available
+- Dress code: Business casual for sessions and meals; optional themed dress for social events
+- Bring: Laptop or tablet, charger, notebook, and business cards
+ 
 === SPONSORS ===
-
-DIAMOND
-1. AmRent | Resident Screening & Income Verification | Built into RM; criminal/housing court, credit, digital income/identity verification; automated w/ online app or manual; data in RM | Co-sponsors: Center Stage, AmRent Panel
-2. AvidXchange | AP Automation | AvidInvoice (AI invoice scanning into RM), AvidPay (check/ACH/virtual card, no-cost, real-time) | Co-sponsors: Let's Taco Bout It, Center Stage, AvidXchange Panel
-3. LeaseTrack | Renters Insurance Tracking | Built into TWA+rmResident; auto-tracks policies free; auto-enrolls uninsured into Master Policy; mgr revenue via charge rates; HO4 w/ $100K liability/$10K personal property | Sponsors: VIP Pass, Center Stage
-4. Rentable | Security Deposit Automation | Resident pays over time, earns interest, builds credit; 10x faster ACH refunds; 75% lower admin costs | Co-sponsors: Center Stage
-5. Zego | Digital Payments & Utility Mgmt | Credit/debit, ACH, flexible installments, CashPay (30K+ locations), check scanning, lockbox; auto deposit refunds, owner distributions, AR reconciliation; utility bill auditing/payment/expense recovery incl. Vacant Cost Recovery | Co-sponsors: Center Stage
-
-PLATINUM
-6. Boom | Screening + Rent Reporting | BoomScreen: criminal/eviction, 3-way ID verification, income doc scanning, fraud detection. BoomReport: auto rent reporting to Experian/Equifax/TransUnion for MH/SF/MF; resident manages via mobile app
-7. Conservice | Utility Management & Bill Pay | Resident utility billing, bill pay (eliminates late fees), US-based resident call center, ownership change utility mgmt, rate audit/procurement, ENERGY STAR benchmarking
-8. Rent Butter | Advanced Tenant Screening | Eviction/criminal/bankruptcy + bank transaction history + credit behavior analytics; credit score trends; direct bank connection for income/employment verification | Also sponsors: registration area signage all 4 days
-9. Spherexx | Internet Marketing & PropTech | ILoveLeasing CRM, ad automation, website services, data analytics for MF/SF/affordable/senior/military/rent control/MH; integrated w/ RM since 2000; Webby Award winner
-
-GOLD
-10. RentDebt | Debt Collection | Nationwide; propensity-to-pay scoring, credit reporting, settlement campaigns, litigation; integrated w/ RM
-11. Domos | AI Property Mgmt Workforce | 24/7 AI for prospect comms, tour scheduling, maintenance, collections, violations, renewals via phone/email/SMS/chat; claims 60% faster lead-to-lease, 80% delinquency decrease; MF/SF/MH
- 
-SILVER
-12. SpeedRead (Cereniti) | AMR & Sub-Metering | FCC-licensed radio sub-metering for water/gas/electricity; MF/SF/commercial/retail/marinas; 99.9% meter read rate; data via Cereniti Data Sense portal + API; daily alerts
-13. Metron | Smart Water Management | WaterScope™ tracks usage every 5 min, detects leaks; AI-driven; 30+ yrs, 8K+ customers, 500K+ devices, 1.3B gal conserved; may lower resident water bills ~30%
-14. Lula | On-Demand Maintenance | 7,000+ vetted pros, 24/7/365; AI triage, automated dispatch/comms/invoicing in RM; before/after photos; service guarantee
-
-BRONZE
-15. Foxen | Renters Insurance + Rent Reporting | Compliance tracking, rent reporting, credit building; ancillary income for owners; built by PM industry veterans
-16. Opiniion | Online Reputation Mgmt | Auto review requests triggered by resident events in RM; real-time negative feedback alerts; custom survey tools
-17. PetScreening | Pet Policy & ESA Verification | ESA auth w/ healthcare providers; FIDO Score™ risk levels for deposits/fees; reduces unauthorized animals; increases pet revenue
-18. Waste Metrics | Waste & Recycling Consulting | Reduce waste costs, improve recycling | wastemetricsconsulting.com
-19. RentEngine | AI Leasing Platform | Marketing syndication, smart scheduling, agent/self-guided tours, SentriLock integration, CRM (call/text), 24/7 AI lead response, Fraud Guard ID verification; claims 20% more qualified leads; integrated w/ RM
-
-=== REGISTRATION & POLICIES ===
-
-Pricing: $900/attendee (Early Bird, 1st+2nd) | $750/attendee (Early Bird, 3rd+) | +$175 VIP add-on
-Deadline: Sep 25, 2026 (late fee after)
-Refunds: 100% by Aug 21 | 50% Aug 21–Sep 18 | None after Sep 18
-Transfers: Allowed until Sep 18, 2026
-Includes: All sessions, Keynote, Closing, Innovation Hall, Opening Reception, all meals/snacks, live demos, 1-on-1 consultations, digital workbook
-Hotel: Conference rate available at conference.rentmanager.com/venue
-Sponsor cancellations: Must be received by Jul 21, 2026 (90 days prior); no refund if marketing already executed
+ 
+--- DIAMOND SPONSORS (highest level) ---
+ 
+1. AmRent | Category: Resident Screening & Income Verification
+   Built-in screening integrated directly into Rent Manager. Runs criminal & housing court records, credit reports, digital income verification (bank access), and identity/synthetic ID verification. Screening can be automated as part of the online application or triggered manually. All data stored in Rent Manager. Also hosts the AmRent Panel Discussion session and co-sponsors Center Stage at the Aztec.
+ 
+2. AvidXchange | Category: Accounts Payable Automation
+   Built-in AP automation inside Rent Manager's Invoices workflow. AvidInvoice uses AI to scan vendor invoices automatically into Rent Manager. AvidPay enables one-click, no-cost vendor payments via check, ACH, or virtual credit card with real-time visibility. Also co-sponsors the Let's Taco 'Bout It Power Hour, Center Stage at the Aztec, and hosts the AvidXchange Panel Discussion session.
+ 
+3. LeaseTrack | Category: Renters Insurance Tracking & Compliance
+   Built into Tenant Web Access (TWA) and rmResident app. Tracks all tenant insurance policies automatically at no cost. Tenants without insurance can be auto-enrolled in the Master Policy Program. Managers can generate revenue through Master Policy charge rates. Offers HO4 policies with liability starting at $100,000 and personal property at $10,000. Sponsors the RMUC.26 VIP Pass and co-sponsors Center Stage at the Aztec.
+ 
+4. Rentable | Category: Security Deposit Automation
+   Automates security deposit handling while maintaining legal compliance. Residents can pay deposits over time, earn interest, and build credit. Deposits are refunded 10x faster via ACH. Reduces deposit administration costs by 75%. Co-sponsors Center Stage at the Aztec.
+ 
+5. Zego | Category: Digital Resident Payments & Utility Management
+   Built-in payment solutions supporting credit/debit, ACH, flexible installments, CashPay (cash at 30,000+ locations), check scanning, and lockbox. Automates security deposit refunds, owner distributions, and AR reconciliation. Zego Utility Management handles utility bill auditing, payment, and expense recovery including Vacant Cost Recovery. Co-sponsors Center Stage at the Aztec.
+ 
+--- PLATINUM SPONSORS ---
+ 
+6. Boom | Category: Tenant Screening & Rent Reporting
+   Two integrated products: BoomScreen offers configurable tenant screening with criminal/eviction reports, three-way identity verification, income document scanning, and fraud detection. BoomReport automatically reports rent payments to all three credit bureaus (Experian, Equifax, TransUnion) for manufactured housing, single-family, and multifamily. Residents manage credit via the Boom mobile app (iOS/Android).
+ 
+7. Conservice | Category: Utility Management & Bill Pay
+   Known as "The Utility Experts." Services include resident utility billing, utility bill pay (eliminates late fees), U.S.-based resident call center, ownership change utility management, rate audit & procurement, and ENERGY STAR energy benchmarking. Maximizes cost recovery and simplifies utility management.
+ 
+8. Rent Butter | Category: Advanced Tenant Screening
+   Combines eviction, criminal, bankruptcy, bank transaction history, and credit behavior analytics into one predictive tenant report. Shows credit score trends (not just current score). Connects directly to applicants' bank accounts for income/employment verification. Also sponsors registration area signage throughout the conference (all 4 days).
+ 
+9. Spherexx | Category: Internet Marketing & PropTech Software
+   Performance-driven software developer and internet marketing provider for real estate since 2000 (US & Canada). Products include ILoveLeasing CRM, ad automation, website services, and data analytics for multifamily, single-family, affordable, senior, military, rent control, and manufactured housing — all integrated with Rent Manager. International Webby Award winner.
+ 
+--- GOLD SPONSORS ---
+ 
+10. RentDebt | Category: Debt Collection & Collections Automation
+    Nationwide rental debt collection service, fully integrated with Rent Manager for easy bad-debt submission. Uses propensity-to-pay scoring, credit reporting, settlement campaigns, and litigation services to maximize portfolio revenue recovery.
+ 
+11. Domos | Category: AI Property Management Workforce
+    AI assistant automating resident lifecycle tasks 24/7 — prospect communications, tour scheduling, maintenance coordination, collections, violations, and renewals — via phone, email, SMS, and web chat. Integrated with Rent Manager. Claims 60% faster lead-to-lease and up to 80% decrease in delinquency. Serves multifamily, single-family, and manufactured housing.
+ 
+--- SILVER SPONSORS ---
+ 
+12. SpeedRead Technologies (Cereniti) | Category: Automatic Meter Reading (AMR) & Sub-Metering
+    Cereniti provides AMR radio technology for sub-metering water, gas, and electricity for multifamily, single-family, commercial, and retail properties and marinas. Uses FCC-licensed transmitters. Reads accessible via the Cereniti Data Sense portal and API. Can read 99.9% of all meters with daily alerts and accurate billing data.
+ 
+13. Metron | Category: Smart Water Management
+    AI-driven smart water management with near real-time usage insights. WaterScope™ software tracks consumption every 5 minutes and detects leaks. 30+ years of experience, 8,000+ customers, 500,000+ devices installed, 1.3 billion gallons conserved. Can potentially lower resident water bills by 30%.
+ 
+14. Lula | Category: On-Demand Property Maintenance
+    AI-powered maintenance management with a network of 7,000+ vetted, licensed, and insured professionals available 24/7/365. Integrates with Rent Manager for automated dispatch, communication, and invoicing. AI triage, real-time updates, before/after photos, and a service guarantee on all work.
+ 
+--- BRONZE SPONSORS ---
+ 
+15. Foxen | Category: Renters Insurance & Rent Reporting
+    Renters insurance compliance tracking, rent reporting, and resident credit building — integrated with Rent Manager. Creates ancillary income streams for property owners. Built by property management industry veterans.
+ 
+16. Opiniion | Category: Online Reputation Management
+    Fully automated platform that drives positive online reviews by sending review requests triggered by meaningful resident events in Rent Manager. Delivers real-time alerts for negative feedback so managers can respond quickly. Includes targeted custom survey tools.
+ 
+17. PetScreening | Category: Pet Policy Management & ESA Verification
+    Pet and assistance animal verification software integrated with Rent Manager. In-house ESA review team authenticates documentation with healthcare providers to stop fraud. FIDO Score™ assigns risk levels to pets for adjusting deposits and fees. Reduces unauthorized animals and helps increase pet revenue.
+ 
+18. Waste Metrics | Category: Waste & Recycling Consulting
+    Waste management consulting that helps property managers reduce waste costs and improve recycling programs. Website: wastemetricsconsulting.com
+ 
+19. RentEngine | Category: AI-Powered Leasing Platform
+    All-in-one AI leasing platform with premium marketing syndication, smart scheduling, agent and self-guided tours, SentriLock lockbox integration, CRM (with calling/texting), and 24/7 AI lead response. Fraud Guard blocks fake leads with ID verification. Claims 20% more qualified leads. Integrated with Rent Manager.
+ 
+=== RMUC.26 FREQUENTLY ASKED QUESTIONS ===
+ 
+--- REGISTRATION ---
+Q: How much does conference registration cost?
+A: Early Bird registration is $900 for the first and second attendees. A discounted rate of $750 (Early Bird) applies to the third attendee and beyond.
+ 
+Q: What is the multi-attendee discount?
+A: The third registration and any additional registrations get a discounted rate — $750 for Early Bird pricing.
+ 
+Q: What is the VIP Pass and how much does it cost?
+A: The VIP Pass is a $175 add-on per attendee. It includes: dedicated VIP check-in, exclusive pre-event with the C-Suite, custom VIP bag and lanyard, priority seating at the Keynote and Closing Ceremony, VIP Lounge access (drinks, snacks), a complimentary professional headshot, guaranteed Product Support appointment, and 20% off Rent Manager merch.
+ 
+Q: Is there a registration deadline?
+A: General registration ends Friday, September 25th, 2026. Registering after this date will incur a late fee.
+ 
+Q: What is the refund policy?
+A: Full refund (100%) for cancellations by August 21st, 2026. 50% refund for cancellations between August 21st and September 18th, 2026. No refunds after September 18th, 2026. Hotel cancellations are handled separately by the hotel.
+ 
+Q: Can I transfer my registration to someone else?
+A: Yes. Name changes and substitutions are allowed until September 18th, 2026.
+ 
+Q: What does registration include?
+A: Registration includes: access to all sessions and seminars, Keynote and Closing Ceremony, Innovation Hall, Monday Opening Reception, all breakfasts/lunches/snacks, live product demos, one-on-one consultations, and a digital conference workbook.
+ 
+--- GENERAL EVENT ---
+Q: When is the conference?
+A: October 19–22, 2026. Bootcamps start Monday the 19th; the Closing Ceremony wraps things up Thursday the 22nd.
+ 
+Q: Do I need to be using Rent Manager Express to attend?
+A: No. Express is recommended but not required. Most sessions will be taught using Express, but attendees on any platform can still benefit.
+ 
+Q: What is the dress code?
+A: Business casual for sessions, meals, and general attendance. Social events may have optional themed dress codes announced closer to the conference. Evenings can be cool — pack a jacket!
+ 
+Q: What is the Rent Manager Core Bootcamp?
+A: A 7-hour pre-conference crash course on Monday covering Rent Manager fundamentals: chart of accounts, properties, tenants, receivables, payables, and the full tenant life cycle. Great for new users or those who want a refresher.
+ 
+Q: What is the Rent Manager Administrator Bootcamp?
+A: A 7-hour Monday session for leaders and admins focused on team oversight, daily workflows, security, and making Rent Manager more efficient for staff.
+ 
+Q: Can I get one-on-one support at RMUC?
+A: Yes! Product Support Specialists will be on-site throughout the conference. No appointment needed — unless you have the VIP Pass, which guarantees a slot.
+ 
+Q: Can I get Rent Manager Certified at RMUC?
+A: Yes! Certification tests are available Monday through Thursday. These are hands-on, activity-driven assessments in a sample Rent Manager database. Passing earns an official Rent Manager Certification badge.
+ 
+Q: What should I pack?
+A: Laptop or tablet (plus charger), notebook, pen, and plenty of business cards for networking. A jacket for cooler evenings is also recommended.
+ 
+Q: How do I plan my schedule?
+A: The RMUC.26 app (available via Cvent closer to the event) lets you browse sessions, register for specific ones, and build your itinerary from your phone or tablet.
+ 
+Q: Will sessions be recorded?
+A: No. Breakout sessions will not be recorded or shared after the conference. Some handouts may be provided.
+ 
+--- TRAVEL & ACCOMMODATIONS ---
+Q: Where is the conference venue?
+A: JW Marriott San Antonio Hill Country Resort & Spa | 23808 Resort Parkway, San Antonio, Texas 78261.
+ 
+Q: Is there a special hotel rate for RMUC attendees?
+A: Yes, a conference room block rate will be available. Check conference.rentmanager.com/venue for details when the room block opens.
+ 
+--- SPONSORING ---
+Q: How do I sign up to sponsor RMUC.26?
+A: Fill out the sponsorship interest form at conference.rentmanager.com/sponsorship-registration/
+ 
+Q: What is the sponsor cancellation policy?
+A: Sponsorship cancellations must be received by July 21st, 2026 (90 days before the event) for a refund. No refunds if marketing activities have already been executed.
+ 
+Q: Who can I contact for more help?
+A: Email the RMUC team at conference@rentmanager.com
 """

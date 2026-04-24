@@ -3,19 +3,63 @@ const API_BASE = "https://rmucadvisor-production.up.railway.app";
 // ── Helpers ──────────────────────────────────────────────────────────────
  
   function escHtml(str) {
-    return str.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    return str
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
   }
- 
+
+  function formatMsg(text) {
+    let html = escHtml(text);
+
+    // bold **text**
+    html = html.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+    // italic *text*
+    html = html.replace(/\*(.*?)\*/g, "<em>$1</em>");
+
+    // bullet lines starting with *
+    const lines = html.split("\n");
+    let inList = false;
+    let output = "";
+
+    for (const line of lines) {
+      if (line.trim().startsWith("* ")) {
+        if (!inList) {
+          output += "<ul>";
+          inList = true;
+        }
+        output += `<li>${line.trim().substring(2)}</li>`;
+      } else {
+        if (inList) {
+          output += "</ul>";
+          inList = false;
+        }
+        if (line.trim()) output += `<p>${line}</p>`;
+      }
+    }
+
+    if (inList) output += "</ul>";
+
+    return output;
+  }
+
   function appendMsg(container, role, text) {
     const emptyState = container.querySelector(".empty-state");
     if (emptyState) emptyState.remove();
- 
+
     const msg = document.createElement("div");
     msg.className = `msg ${role}`;
-    const initials = role === "user" ? "YOU" : "AI";
+
+    const avatar =
+      role === "user"
+        ? `<span class="msg-user-icon">👤</span>`
+        : `<img src="assets/rmuc-house-logo.png" alt="RMUC" class="msg-logo" />`;
+
     msg.innerHTML = `
-      <div class="msg-avatar">${initials}</div>
-      <div class="msg-bubble">${escHtml(text)}</div>`;
+      <div class="msg-avatar">${avatar}</div>
+      <div class="msg-bubble"><div class="msg-content">${formatMsg(text)}</div></div>`;
+
     container.appendChild(msg);
     container.scrollTop = container.scrollHeight;
     return msg;
