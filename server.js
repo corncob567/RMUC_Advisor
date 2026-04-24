@@ -55,12 +55,16 @@ const MATCH_SYSTEM = {
     `If needed, draw on this data to understand more of what various attendees know or do (beyond just their listed interests):\n${CONFERENCE_DATA}`
 };
 
+// Models
+const testingModel = "llama-3.1-8b-instant";
+const demoModel = "llama-3.3-70b-versatile";
+
 // POST /api/chat  { messages: [...] }
 app.post("/api/chat", async (req, res) => {
   try {
     const { messages } = req.body;
     const completion = await client.chat.completions.create({
-      model: "llama-3.1-8b-instant",
+      model: demoModel,
       messages: [CHAT_SYSTEM, ...messages],
     });
     res.json({ reply: completion.choices[0].message.content });
@@ -75,7 +79,7 @@ app.post("/api/match", async (req, res) => {
   try {
     const { messages } = req.body;
     const completion = await client.chat.completions.create({
-      model: "llama-3.1-8b-instant",
+      model: demoModel,
       messages: [MATCH_SYSTEM, ...messages],
     });
     res.json({ reply: completion.choices[0].message.content });
