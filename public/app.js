@@ -1,3 +1,5 @@
+const API_BASE = "https://rmucadvisor-production.up.railway.app";
+
 // ── Helpers ──────────────────────────────────────────────────────────────
  
   function escHtml(str) {
@@ -73,7 +75,7 @@
     showTyping(chatMsgs);
     chatInput.disabled = chatSend.disabled = true;
     try {
-      const reply = await callApi("/api/chat", chatHistory);
+      const reply = await callApi(`${API_BASE}/api/chat`, chatHistory);
       removeTyping(chatMsgs);
       chatHistory.push({ role: "assistant", content: reply });
       appendMsg(chatMsgs, "assistant", reply);
@@ -118,7 +120,7 @@
     showTyping(matchMsgs);
  
     try {
-      const reply = await callApi("/api/match", matchHistory);
+      const reply = await callApi(`${API_BASE}/api/match`, matchHistory);
       removeTyping(matchMsgs);
       matchHistory.push({ role: "assistant", content: reply });
       appendMsg(matchMsgs, "assistant", reply);
